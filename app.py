@@ -16,9 +16,10 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ---------------------------------------------------------------- Palet Warna Modern & Clean
+# ---------------------------------------------------------------- Palet Warna Executive Light
+OREN_FIK = "#EA580C"    # Orange 600 (Warna Utama Identitas FIK)
 NAVY = "#0F172A"        # Slate 900
-BLUE = "#1E40AF"        # Blue 800
+BLUE = "#2563EB"        # Royal Blue 600
 TEAL = "#0D9488"        # Teal 600
 HIJAU = "#059669"       # Emerald 600
 AMBER = "#D97706"       # Amber 600
@@ -26,7 +27,7 @@ MERAH = "#E11D48"       # Rose 600
 UNGU = "#6366F1"        # Indigo 500
 SKY = "#0284C7"         # Sky 600
 
-PALET = [BLUE, TEAL, UNGU, AMBER, SKY, HIJAU]
+PALET = [OREN_FIK, BLUE, TEAL, UNGU, SKY, HIJAU]
 
 WARNA_STATUS = {
     "Aktif": HIJAU,
@@ -43,15 +44,17 @@ WARNA_BAYAR = {
 BATAS_IPK_RAWAN = 2.00
 BATAS_HADIR_RAWAN = 81.25
 
-# ---------------------------------------------------------------- Custom CSS (Minimal & Professional)
+# ---------------------------------------------------------------- Custom CSS System (Light Executive Theme)
 st.markdown(
     """
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
       
+      /* Global Reset & Typography */
       html, body, [class*="css"], div[data-testid="stAppViewContainer"] {
-        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-        color: #1E293B;
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+        color: #1E293B !important;
+        background-color: #F8FAFC !important;
       }
       
       /* Fix Streamlit top navbar overlap */
@@ -67,129 +70,130 @@ st.markdown(
         max-width: 1400px !important;
       }
       
-      /* Header Banner Styling */
-      .main-header {
-        background: #0F172A;
-        padding: 24px 28px;
-        border-radius: 12px;
-        color: #FFFFFF;
+      /* Header Styling */
+      .page-header {
         margin-bottom: 24px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #E2E8F0;
       }
-      .main-header-text h1 {
-        font-weight: 700;
-        font-size: 1.65rem;
+      .page-header h1 {
+        font-weight: 600;
+        font-size: 1.55rem;
         letter-spacing: -0.01em;
         margin: 0 0 4px 0;
-        color: #FFFFFF !important;
+        color: #0F172A !important;
       }
-      .main-header-text p {
-        color: #94A3B8;
-        font-size: 0.88rem;
+      .page-header p {
+        color: #64748B;
+        font-size: 0.86rem;
         margin: 0;
       }
-      .header-badge {
-        display: inline-block;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 3px 10px;
-        border-radius: 6px;
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: #38BDF8;
-        margin-bottom: 8px;
-      }
-      .header-status-pill {
-        background: rgba(255, 255, 255, 0.06);
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        padding: 6px 14px;
-        border-radius: 8px;
-        font-size: 0.8rem;
-        color: #CBD5E1;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      }
-      .status-dot {
-        width: 8px;
-        height: 8px;
-        background-color: #10B981;
-        border-radius: 50%;
-        display: inline-block;
-      }
       
-      /* Metric Cards Styling */
+      /* Metric Cards Styling (Equal Height & Balanced Font) */
       div[data-testid="stMetric"] {
-        background: #FFFFFF;
-        border: 1px solid #E2E8F0;
-        border-radius: 10px;
-        padding: 14px 18px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+        background: #FFFFFF !important;
+        border: 1px solid #E2E8F0 !important;
+        border-radius: 12px !important;
+        padding: 14px 16px !important;
+        min-height: 106px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+        transition: all 0.2s ease !important;
+      }
+      div[data-testid="stMetric"]:hover {
+        transform: translateY(-2px) !important;
+        border-color: #CBD5E1 !important;
+        box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05) !important;
       }
       div[data-testid="stMetricLabel"] p {
-        font-size: 0.8rem !important;
-        font-weight: 600 !important;
+        font-size: 0.78rem !important;
+        font-weight: 500 !important;
         color: #64748B !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
       }
       div[data-testid="stMetricValue"] div {
-        font-size: 1.5rem !important;
-        font-weight: 700 !important;
+        font-size: 1.25rem !important;
+        font-weight: 600 !important;
         color: #0F172A !important;
+        line-height: 1.25 !important;
+      }
+      div[data-testid="stMetricDelta"] div {
+        font-size: 0.72rem !important;
+        font-weight: 500 !important;
       }
       
       /* Tabs Custom Styling */
       div[data-testid="stTabs"] {
-        margin-top: 8px;
+        margin-top: 12px;
       }
       button[data-baseweb="tab"] {
         font-family: 'Plus Jakarta Sans', sans-serif !important;
-        font-weight: 600 !important;
-        font-size: 0.9rem !important;
-        padding: 8px 16px !important;
-        border-radius: 8px !important;
+        font-weight: 500 !important;
+        font-size: 0.88rem !important;
+        padding: 9px 18px !important;
+        border-radius: 10px !important;
         color: #64748B !important;
-        margin-right: 4px !important;
+        margin-right: 6px !important;
         border: 1px solid transparent !important;
+        transition: all 0.2s ease !important;
+      }
+      button[data-baseweb="tab"]:hover {
+        background-color: #FFFFFF !important;
+        color: #1E293B !important;
+        border-color: #E2E8F0 !important;
       }
       button[aria-selected="true"] {
-        color: #0F172A !important;
-        background-color: #F1F5F9 !important;
-        border-color: #E2E8F0 !important;
+        color: #C2410C !important;
+        background-color: #FFF7ED !important;
+        border-color: #FED7AA !important;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.02) !important;
       }
       
       /* Sidebar Clean Styling */
       section[data-testid="stSidebar"] {
-        background-color: #F8FAFC;
-        border-right: 1px solid #E2E8F0;
+        background-color: #FFFFFF !important;
+        border-right: 1px solid #E2E8F0 !important;
       }
       section[data-testid="stSidebar"] h1, 
       section[data-testid="stSidebar"] h2, 
       section[data-testid="stSidebar"] h3 {
         color: #0F172A;
         font-weight: 600;
-        font-size: 1.1rem;
+        font-size: 0.95rem;
+      }
+
+      /* Section Title Box */
+      .chart-title-header {
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: #0F172A;
+        margin-bottom: 12px;
+        letter-spacing: -0.01em;
       }
 
       /* Alert Callout Box Customization */
       div.stAlert {
-        border-radius: 10px;
+        border-radius: 12px;
         border: 1px solid #E2E8F0;
+        background-color: #FFFFFF;
       }
       
       /* Table Customization */
       div[data-testid="stDataFrame"] {
         border: 1px solid #E2E8F0;
-        border-radius: 10px;
+        border-radius: 14px;
         overflow: hidden;
+        background-color: #FFFFFF;
       }
 
       /* Headings */
       h2, h3 {
         color: #0F172A;
-        font-weight: 600;
+        font-weight: 700;
         letter-spacing: -0.01em;
       }
     </style>
@@ -228,29 +232,24 @@ def rupiah(nilai: float, singkat: bool = False) -> str:
 
 def rapikan(
     fig,
-    tinggi: int = 390,
-    judul: str = "",
+    tinggi: int = 360,
     xlabel: str = "",
     ylabel: str = "",
     legend_top: bool = True,
 ):
-    """Format grafik Plotly agar lega, bersih, dan tidak dempet."""
+    """Format grafik Plotly agar lega, bersih, tanpa tabrakan judul/legenda."""
     layout_update = dict(
         height=tinggi,
-        margin=dict(
-            l=30,
-            r=30,
-            t=60 if (judul or legend_top) else 35,
-            b=60 if not legend_top else 45,
-        ),
+        margin=dict(l=32, r=32, t=35 if legend_top else 20, b=55),
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Plus Jakarta Sans, sans-serif", color="#334155", size=12),
         hoverlabel=dict(
-            bgcolor="#0F172A",
+            bgcolor="#FFFFFF",
             font_size=12,
             font_family="Plus Jakarta Sans, sans-serif",
-            font_color="#FFFFFF",
+            font_color="#0F172A",
+            bordercolor="#CBD5E1",
         ),
     )
 
@@ -258,9 +257,9 @@ def rapikan(
         layout_update["legend"] = dict(
             orientation="h",
             yanchor="bottom",
-            y=1.04,
-            x=1 if judul else 0,
-            xanchor="right" if judul else "left",
+            y=1.02,
+            x=0,
+            xanchor="left",
             bgcolor="rgba(0,0,0,0)",
             font=dict(size=11, color="#475569"),
             title=dict(text=""),
@@ -275,15 +274,6 @@ def rapikan(
             bgcolor="rgba(0,0,0,0)",
             font=dict(size=11, color="#475569"),
             title=dict(text=""),
-        )
-
-    if judul:
-        layout_update["title"] = dict(
-            text=f"<b>{judul}</b>",
-            font=dict(size=14, color="#0F172A", family="Plus Jakarta Sans, sans-serif"),
-            x=0,
-            xanchor="left",
-            y=0.98,
         )
 
     fig.update_layout(**layout_update)
@@ -311,12 +301,13 @@ def rapikan(
 data = muat_data()
 
 # --------------------------------------------------------------------- Sidebar Filter
-st.sidebar.markdown("### Filter data")
-st.sidebar.caption("Sesuaikan parameter untuk memfilter dasbor:")
+st.sidebar.markdown("### Parameter penyaringan")
+st.sidebar.caption("Pilih kriteria untuk menyaring indikator data mahasiswa:")
 
 LABEL_PRODI = "Semua program studi"
 LABEL_ANGKATAN = "Semua angkatan"
 LABEL_STATUS = "Semua status akademik"
+
 
 def tangani_filter_semua(key_name, semua_opsi_str, semua_label):
     pilihan = st.session_state.get(key_name, [])
@@ -397,25 +388,19 @@ st.sidebar.markdown(
         Menampilkan <b>{len(df):,}</b> dari <b>{len(data):,}</b> mahasiswa.<br>
         <hr style="margin: 8px 0; border-color: #F1F5F9;">
         <span style="font-size: 0.76rem; color: #64748B;">
-            Kriteria <i>perlu perhatian</i>: IPK &lt; 2,00 <b>atau</b> kehadiran &lt; 81,25% <b>atau</b> memiliki tunggakan UKT.
+            Kriteria <i>perhatian khusus</i>: IPK &lt; 2,00 <b>atau</b> kehadiran &lt; 81,25% <b>atau</b> memiliki tunggakan UKT.
         </span>
     </div>
     """.replace(",", "."),
     unsafe_allow_html=True,
 )
 
-# ---------------------------------------------------------------- Header Banner
+# ---------------------------------------------------------------- Header
 st.markdown(
     """
-    <div class="main-header">
-        <div class="main-header-text">
-            <div class="header-badge">Dashboard BI Akademik</div>
-            <h1>Dashboard Akademik — Fakultas Ilmu Komputer</h1>
-            <p>Sistem informasi & analitik data kinerja mahasiswa (Simulasi SIAKAD)</p>
-        </div>
-        <div class="header-status-pill">
-            <span class="status-dot"></span> Status: Data aktif
-        </div>
+    <div class="page-header">
+        <h1>Dashboard Analitik Akademik FIK</h1>
+        <p>Fakultas Ilmu Komputer — Pemantauan Indikator Kinerja Utama Mahasiswa</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -427,17 +412,17 @@ if df.empty:
 
 # ---------------------------------------------------------------- KPI Cards Row
 k1, k2, k3, k4, k5 = st.columns(5)
-k1.metric("Total mahasiswa", f"{len(df):,}".replace(",", "."))
+k1.metric("Total Mahasiswa", f"{len(df):,}".replace(",", "."))
 k2.metric(
-    "Mahasiswa aktif",
+    "Mahasiswa Aktif",
     f"{(df['status_akademik'] == 'Aktif').sum():,}".replace(",", "."),
 )
-k3.metric("Rata-rata IPK", f"{df['ipk'].mean():.2f}")
-k4.metric("Rata-rata kehadiran", f"{df['kehadiran_persen'].mean():.1f}%")
+k3.metric("Rata-Rata IPK", f"{df['ipk'].mean():.2f}")
+k4.metric("Rata Kehadiran", f"{df['kehadiran_persen'].mean():.1f}%")
 k5.metric(
-    "Total tunggakan UKT",
+    "Tunggakan UKT",
     rupiah(df["tunggakan_ukt"].sum(), singkat=True),
-    delta=f"{(df['tunggakan_ukt'] > 0).sum()} mahasiswa",
+    delta=f"{(df['tunggakan_ukt'] > 0).sum()} mhs",
     delta_color="inverse",
 )
 
@@ -446,11 +431,11 @@ st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
 # ---------------------------------------------------------------- Navigation Tabs
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
     [
-        "Ringkasan",
-        "Akademik",
-        "Keuangan (UKT)",
-        "Kehadiran",
-        "Data & Ekspor",
+        "Ringkasan Kinerja",
+        "Capaian Akademik",
+        "Keuangan & UKT",
+        "Presensi & Kehadiran",
+        "Pencarian & Data",
     ]
 )
 
@@ -460,6 +445,7 @@ with tab1:
     c1, c2 = st.columns([1, 1.25], gap="large")
 
     with c1:
+        st.markdown('<div class="chart-title-header">Komposisi status akademik</div>', unsafe_allow_html=True)
         komposisi = df["status_akademik"].value_counts().reset_index()
         komposisi.columns = ["status", "jumlah"]
         fig = px.pie(
@@ -482,11 +468,12 @@ with tab1:
             font=dict(size=16, color="#0F172A", family="Plus Jakarta Sans"),
         )
         st.plotly_chart(
-            rapikan(fig, tinggi=380, judul="Komposisi status akademik"),
+            rapikan(fig, tinggi=360),
             use_container_width=True,
         )
 
     with c2:
+        st.markdown('<div class="chart-title-header">Jumlah mahasiswa per prodi & angkatan</div>', unsafe_allow_html=True)
         per_prodi = (
             df.groupby(["program_studi", "angkatan"]).size().reset_index(name="jumlah")
         )
@@ -500,12 +487,15 @@ with tab1:
             color_discrete_sequence=PALET,
             text_auto=True,
         )
-        fig.update_traces(marker_line_width=0)
+        fig.update_traces(
+            marker_line_width=0,
+            textangle=0,
+            insidetextfont=dict(size=11, color="#FFFFFF"),
+        )
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=380,
-                judul="Jumlah mahasiswa per prodi & angkatan",
+                tinggi=360,
                 ylabel="Mahasiswa",
             ),
             use_container_width=True,
@@ -550,6 +540,7 @@ with tab2:
     c1, c2 = st.columns([1, 1], gap="large")
 
     with c1:
+        st.markdown('<div class="chart-title-header">Sebaran IPK mahasiswa</div>', unsafe_allow_html=True)
         fig = px.histogram(
             df,
             x="ipk",
@@ -569,8 +560,7 @@ with tab2:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=380,
-                judul="Sebaran IPK mahasiswa",
+                tinggi=360,
                 xlabel="Nilai IPK",
                 ylabel="Jumlah mahasiswa",
             ),
@@ -578,6 +568,7 @@ with tab2:
         )
 
     with c2:
+        st.markdown('<div class="chart-title-header">Sebaran IPK per program studi</div>', unsafe_allow_html=True)
         fig = px.box(
             df,
             x="program_studi",
@@ -590,14 +581,14 @@ with tab2:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=380,
-                judul="Sebaran IPK per program studi",
+                tinggi=360,
                 ylabel="IPK",
             ),
             use_container_width=True,
         )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    st.markdown('<div class="chart-title-header">Tren rata-rata IPK per angkatan</div>', unsafe_allow_html=True)
     tren = df.groupby(["angkatan", "program_studi"])["ipk"].mean().reset_index()
     fig = px.line(
         tren,
@@ -612,8 +603,7 @@ with tab2:
     st.plotly_chart(
         rapikan(
             fig,
-            tinggi=380,
-            judul="Tren rata-rata IPK per angkatan",
+            tinggi=360,
             xlabel="Tahun angkatan",
             ylabel="Rata-rata IPK",
         ),
@@ -621,10 +611,10 @@ with tab2:
     )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
-    st.markdown(f"### Mahasiswa dengan IPK di bawah {BATAS_IPK_RAWAN:.2f}")
+    st.markdown("### Daftar mahasiswa memerlukan pembimbingan akademik (IPK < 2,00)")
     rawan = df[df["ipk"] < BATAS_IPK_RAWAN].sort_values("ipk")
     st.caption(
-        f"Daftar {len(rawan)} mahasiswa berisiko akademik — memerlukan pembimbingan dosen PA."
+        f"Daftar {len(rawan)} mahasiswa dengan akumulasi IPK di bawah 2,00 yang memerlukan evaluasi serta bimbingan Dosen PA."
     )
     st.dataframe(
         rawan[
@@ -665,6 +655,7 @@ with tab3:
     c1, c2 = st.columns([1.3, 1], gap="large")
 
     with c1:
+        st.markdown('<div class="chart-title-header">Total tunggakan UKT per program studi</div>', unsafe_allow_html=True)
         per_prodi = (
             df.groupby("program_studi")["tunggakan_ukt"]
             .sum()
@@ -679,12 +670,11 @@ with tab3:
             color_discrete_sequence=[BLUE],
             text_auto=".2s",
         )
-        fig.update_traces(marker_line_width=0)
+        fig.update_traces(marker_line_width=0, textposition="outside", textangle=0)
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=380,
-                judul="Total tunggakan UKT per program studi",
+                tinggi=360,
                 xlabel="Nominal tunggakan (Rupiah)",
                 legend_top=False,
             ),
@@ -692,6 +682,7 @@ with tab3:
         )
 
     with c2:
+        st.markdown('<div class="chart-title-header">Status pembayaran UKT</div>', unsafe_allow_html=True)
         komposisi = df["status_pembayaran"].value_counts().reset_index()
         komposisi.columns = ["status", "jumlah"]
         fig = px.pie(
@@ -709,11 +700,12 @@ with tab3:
             marker=dict(line=dict(color="#FFFFFF", width=2)),
         )
         st.plotly_chart(
-            rapikan(fig, tinggi=380, judul="Status pembayaran UKT"),
+            rapikan(fig, tinggi=360),
             use_container_width=True,
         )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    st.markdown('<div class="chart-title-header">Distribusi tunggakan per golongan UKT</div>', unsafe_allow_html=True)
     per_gol = (
         df.groupby("golongan_ukt")
         .agg(mahasiswa=("nim", "count"), tunggakan=("tunggakan_ukt", "sum"))
@@ -727,13 +719,12 @@ with tab3:
         text_auto=".2s",
         hover_data={"mahasiswa": True},
     )
-    fig.update_traces(marker_line_width=0)
+    fig.update_traces(marker_line_width=0, textposition="outside", textangle=0)
     fig.update_xaxes(tickmode="linear", dtick=1)
     st.plotly_chart(
         rapikan(
             fig,
             tinggi=360,
-            judul="Distribusi tunggakan per golongan UKT",
             xlabel="Golongan UKT",
             ylabel="Total tunggakan (Rupiah)",
         ),
@@ -741,7 +732,7 @@ with tab3:
     )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
-    st.markdown("### 15 tunggakan UKT terbesar")
+    st.markdown("### Daftar 15 tunggakan UKT terbesar")
     tabel = (
         penunggak.sort_values("tunggakan_ukt", ascending=False)
         .head(15)[
@@ -776,13 +767,14 @@ with tab3:
 with tab4:
     st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
     st.caption(
-        "ℹ️ **Kebijakan Presensi FIK**: Batas minimal kehadiran mahasiswa adalah **81,25%**, "
-        "karena mahasiswa hanya diperbolehkan maksimal tidak masuk **3 kali** dalam 1 semester (asumsi 16 pertemuan)."
+        "ℹ️ **Ketentuan Presensi Akademik**: Batas minimal kehadiran mahasiswa ditetapkan sebesar **81,25%** "
+        "(maksimal 3 kali ketidakhadiran dalam 1 semester sesuai regulasi akademik)."
     )
     st.markdown("<div style='height: 4px;'></div>", unsafe_allow_html=True)
     c1, c2 = st.columns([1, 1], gap="large")
 
     with c1:
+        st.markdown('<div class="chart-title-header">Sebaran tingkat kehadiran presensi</div>', unsafe_allow_html=True)
         fig = px.histogram(
             df,
             x="kehadiran_persen",
@@ -802,8 +794,7 @@ with tab4:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=380,
-                judul="Sebaran tingkat kehadiran presensi",
+                tinggi=360,
                 xlabel="Persentase kehadiran (%)",
                 ylabel="Mahasiswa",
             ),
@@ -811,6 +802,7 @@ with tab4:
         )
 
     with c2:
+        st.markdown('<div class="chart-title-header">Korelasi kehadiran kuliah vs IPK</div>', unsafe_allow_html=True)
         fig = px.scatter(
             df,
             x="kehadiran_persen",
@@ -824,8 +816,7 @@ with tab4:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=380,
-                judul="Korelasi kehadiran kuliah vs IPK",
+                tinggi=360,
                 xlabel="Kehadiran (%)",
                 ylabel="IPK",
             ),
@@ -834,11 +825,12 @@ with tab4:
 
     korelasi = df["kehadiran_persen"].corr(df["ipk"])
     st.info(
-        f"**Insight presensi**: Korelasi kehadiran terhadap IPK pada data terfilter adalah **{korelasi:.2f}** "
-        "(Korelasi positif kuat: semakin tinggi kehadiran, cenderung semakin baik raihan IPK)."
+        f"**Analisis Korelasi**: Koefisien korelasi antara tingkat kehadiran dan akumulasi IPK sebesar **{korelasi:.2f}** "
+        "(menunjukkan hubungan positif antara kedisiplinan presensi dan capaian akademik)."
     )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    st.markdown('<div class="chart-title-header">Rata-rata kehadiran per prodi & angkatan</div>', unsafe_allow_html=True)
     per_prodi = (
         df.groupby(["angkatan", "program_studi"])["kehadiran_persen"]
         .mean()
@@ -864,8 +856,7 @@ with tab4:
     st.plotly_chart(
         rapikan(
             fig,
-            tinggi=380,
-            judul="Rata-rata kehadiran per prodi & angkatan",
+            tinggi=360,
             xlabel="Tahun angkatan",
             ylabel="Rata-rata kehadiran (%)",
         ),
@@ -873,12 +864,12 @@ with tab4:
     )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
-    st.markdown(f"### Mahasiswa dengan kehadiran di bawah {BATAS_HADIR_RAWAN:.2f}%")
+    st.markdown(f"### Daftar mahasiswa di bawah batas minimal presensi (< {BATAS_HADIR_RAWAN:.2f}%)")
     kurang = df[df["kehadiran_persen"] < BATAS_HADIR_RAWAN].sort_values(
         "kehadiran_persen"
     )
     st.caption(
-        f"Daftar {len(kurang)} mahasiswa berisiko tidak memenuhi syarat ujian (kehadiran < 81,25% / tidak masuk > 3 kali)."
+        f"Daftar {len(kurang)} mahasiswa dengan persentase kehadiran di bawah 81,25% (potensi tidak memenuhi syarat ujian akhir semester)."
     )
     st.dataframe(
         kurang[
@@ -902,8 +893,8 @@ with tab4:
 with tab5:
     st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
     cari = st.text_input(
-        "Cari mahasiswa",
-        placeholder="Ketik nama atau NIM (contoh: 2301 atau Dewi)...",
+        "Pencarian data mahasiswa",
+        placeholder="Ketik Nama atau NIM mahasiswa (contoh: 2301 atau Dewi)...",
     )
     tampil = df
     if cari:
@@ -925,12 +916,12 @@ with tab5:
             "tunggakan_ukt": st.column_config.NumberColumn(
                 "Tunggakan UKT", format="Rp %d"
             ),
-            "perlu_perhatian": st.column_config.CheckboxColumn("Perlu perhatian"),
+            "perlu_perhatian": st.column_config.CheckboxColumn("Perhatian khusus"),
         },
     )
 
     st.download_button(
-        "Unduh data terfilter (CSV)",
+        "Unduh Data Terfilter (CSV)",
         tampil.to_csv(index=False).encode("utf-8"),
         file_name="data_mahasiswa_terfilter.csv",
         mime="text/csv",
@@ -938,5 +929,5 @@ with tab5:
 
 st.markdown("---")
 st.caption(
-    "Dashboard BI FIK — Prototipe Business Intelligence Fakultas Ilmu Komputer. Powered by Streamlit & Plotly."
+    "Dashboard BI FIK — Sistem Informasi & Analitik Akademik Fakultas Ilmu Komputer. Powered by Streamlit & Plotly."
 )
