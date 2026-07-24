@@ -314,28 +314,37 @@ data = muat_data()
 st.sidebar.markdown("### Filter data")
 st.sidebar.caption("Sesuaikan parameter untuk memfilter dasbor:")
 
+semua_prodi = sorted(list(data["program_studi"].unique()))
 prodi_pilih = st.sidebar.multiselect(
     "Program studi",
-    sorted(data["program_studi"].unique()),
-    default=sorted(data["program_studi"].unique()),
+    ["Semua"] + semua_prodi,
+    default=["Semua"],
 )
+prodi_aktif = semua_prodi if ("Semua" in prodi_pilih or not prodi_pilih) else [p for p in prodi_pilih if p != "Semua"]
+
+semua_angkatan = sorted(list(data["angkatan"].unique()))
 angkatan_pilih = st.sidebar.multiselect(
     "Angkatan",
-    sorted(data["angkatan"].unique()),
-    default=sorted(data["angkatan"].unique()),
+    ["Semua"] + semua_angkatan,
+    default=["Semua"],
 )
+angkatan_aktif = semua_angkatan if ("Semua" in angkatan_pilih or not angkatan_pilih) else [a for a in angkatan_pilih if a != "Semua"]
+
+semua_status = ["Aktif", "Cuti", "Non-Aktif", "Lulus"]
 status_pilih = st.sidebar.multiselect(
     "Status akademik",
-    ["Aktif", "Cuti", "Non-Aktif", "Lulus"],
-    default=["Aktif", "Cuti", "Non-Aktif", "Lulus"],
+    ["Semua"] + semua_status,
+    default=["Semua"],
 )
+status_aktif = semua_status if ("Semua" in status_pilih or not status_pilih) else [s for s in status_pilih if s != "Semua"]
+
 ipk_min, ipk_maks = st.sidebar.slider("Rentang IPK", 0.0, 4.0, (0.0, 4.0), 0.05)
 hanya_rawan = st.sidebar.checkbox("Hanya mahasiswa perlu perhatian")
 
 df = data[
-    data["program_studi"].isin(prodi_pilih)
-    & data["angkatan"].isin(angkatan_pilih)
-    & data["status_akademik"].isin(status_pilih)
+    data["program_studi"].isin(prodi_aktif)
+    & data["angkatan"].isin(angkatan_aktif)
+    & data["status_akademik"].isin(status_aktif)
     & data["ipk"].between(ipk_min, ipk_maks)
 ]
 if hanya_rawan:
