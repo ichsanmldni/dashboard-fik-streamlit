@@ -844,6 +844,12 @@ with tab4:
         .mean()
         .reset_index()
     )
+    if not per_prodi.empty:
+        v_min = max(0, per_prodi["kehadiran_persen"].min() - 7)
+        v_max = min(100, per_prodi["kehadiran_persen"].max() + 7)
+    else:
+        v_min, v_max = 60, 100
+
     fig = px.line(
         per_prodi,
         x="angkatan",
@@ -854,7 +860,7 @@ with tab4:
     )
     fig.update_traces(line=dict(width=2.5), marker=dict(size=8))
     fig.update_xaxes(tickmode="array", tickvals=sorted(df["angkatan"].unique()))
-    fig.update_yaxes(range=[60, 100])
+    fig.update_yaxes(range=[v_min, v_max])
     st.plotly_chart(
         rapikan(
             fig,
