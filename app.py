@@ -400,7 +400,7 @@ st.markdown(
     """
     <div class="page-header">
         <h1>Dashboard BI - Fakultas Ilmu Komputer</h1>
-        <p>Pemantauan Indikator Kinerja Utama & Profil Kinerja Mahasiswa</p>
+        <p>Sistem Informasi Analitik Akademik & Kemahasiswaan</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -431,7 +431,7 @@ st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
 # ---------------------------------------------------------------- Navigation Tabs
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
     [
-        "Ringkasan Kinerja",
+        "Ringkasan Eksekutif",
         "Capaian Akademik",
         "Keuangan & UKT",
         "Presensi & Kehadiran",
@@ -503,7 +503,7 @@ with tab1:
         )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
-    st.markdown("### Ringkasan kinerja per program studi")
+    st.markdown("### Ringkasan data per program studi")
     ringkas = (
         df.groupby("program_studi")
         .agg(
