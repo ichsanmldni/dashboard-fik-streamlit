@@ -314,29 +314,69 @@ data = muat_data()
 st.sidebar.markdown("### Filter data")
 st.sidebar.caption("Sesuaikan parameter untuk memfilter dasbor:")
 
-semua_prodi = sorted(list(data["program_studi"].unique()))
-prodi_pilih = st.sidebar.multiselect(
-    "Program studi",
-    ["Semua"] + semua_prodi,
-    default=["Semua"],
-)
-prodi_aktif = semua_prodi if ("Semua" in prodi_pilih or not prodi_pilih) else [p for p in prodi_pilih if p != "Semua"]
+LABEL_PRODI = "Semua program studi"
+LABEL_ANGKATAN = "Semua angkatan"
+LABEL_STATUS = "Semua status akademik"
 
-semua_angkatan = sorted(list(data["angkatan"].unique()))
-angkatan_pilih = st.sidebar.multiselect(
-    "Angkatan",
-    ["Semua"] + semua_angkatan,
-    default=["Semua"],
+def tangani_filter_semua(key_name, semua_opsi_str, semua_label):
+    pilihan = st.session_state.get(key_name, [])
+    if not pilihan:
+        st.session_state[key_name] = [semua_label]
+        return
+
+    if semua_label in pilihan:
+        if pilihan[-1] == semua_label or len(pilihan) == len(semua_opsi_str) + 1:
+            st.session_state[key_name] = [semua_label]
+        else:
+            n_pilihan = [p for p in pilihan if p != semua_label]
+            if set(n_pilihan) == set(semua_opsi_str):
+                st.session_state[key_name] = [semua_label]
+            else:
+                st.session_state[key_name] = n_pilihan
+    else:
+        if set(pilihan) == set(semua_opsi_str):
+            st.session_state[key_name] = [semua_label]
+
+
+if "filter_prodi" not in st.session_state:
+    st.session_state["filter_prodi"] = [LABEL_PRODI]
+if "filter_angkatan" not in st.session_state:
+    st.session_state["filter_angkatan"] = [LABEL_ANGKATAN]
+if "filter_status" not in st.session_state:
+    st.session_state["filter_status"] = [LABEL_STATUS]
+
+semua_prodi = sorted(list(data["program_studi"].unique()))
+st.sidebar.multiselect(
+    "Program studi",
+    options=[LABEL_PRODI] + semua_prodi,
+    key="filter_prodi",
+    on_change=tangani_filter_semua,
+    args=("filter_prodi", semua_prodi, LABEL_PRODI),
 )
-angkatan_aktif = semua_angkatan if ("Semua" in angkatan_pilih or not angkatan_pilih) else [a for a in angkatan_pilih if a != "Semua"]
+prodi_pilih = st.session_state["filter_prodi"]
+prodi_aktif = semua_prodi if (LABEL_PRODI in prodi_pilih or not prodi_pilih) else prodi_pilih
+
+semua_angkatan_str = [str(a) for a in sorted(list(data["angkatan"].unique()))]
+st.sidebar.multiselect(
+    "Angkatan",
+    options=[LABEL_ANGKATAN] + semua_angkatan_str,
+    key="filter_angkatan",
+    on_change=tangani_filter_semua,
+    args=("filter_angkatan", semua_angkatan_str, LABEL_ANGKATAN),
+)
+angkatan_pilih = st.session_state["filter_angkatan"]
+angkatan_aktif = [int(a) for a in sorted(list(data["angkatan"].unique()))] if (LABEL_ANGKATAN in angkatan_pilih or not angkatan_pilih) else [int(a) for a in angkatan_pilih if a != LABEL_ANGKATAN]
 
 semua_status = ["Aktif", "Cuti", "Non-Aktif", "Lulus"]
-status_pilih = st.sidebar.multiselect(
+st.sidebar.multiselect(
     "Status akademik",
-    ["Semua"] + semua_status,
-    default=["Semua"],
+    options=[LABEL_STATUS] + semua_status,
+    key="filter_status",
+    on_change=tangani_filter_semua,
+    args=("filter_status", semua_status, LABEL_STATUS),
 )
-status_aktif = semua_status if ("Semua" in status_pilih or not status_pilih) else [s for s in status_pilih if s != "Semua"]
+status_pilih = st.session_state["filter_status"]
+status_aktif = semua_status if (LABEL_STATUS in status_pilih or not status_pilih) else status_pilih
 
 ipk_min, ipk_maks = st.sidebar.slider("Rentang IPK", 0.0, 4.0, (0.0, 4.0), 0.05)
 hanya_rawan = st.sidebar.checkbox("Hanya mahasiswa perlu perhatian")
