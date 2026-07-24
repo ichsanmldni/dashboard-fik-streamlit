@@ -41,7 +41,7 @@ WARNA_BAYAR = {
 }
 
 BATAS_IPK_RAWAN = 2.50
-BATAS_HADIR_RAWAN = 75.0
+BATAS_HADIR_RAWAN = 82.0
 
 # ---------------------------------------------------------------- Custom CSS (Minimal & Professional)
 st.markdown(
@@ -397,7 +397,7 @@ st.sidebar.markdown(
         Menampilkan <b>{len(df):,}</b> dari <b>{len(data):,}</b> mahasiswa.<br>
         <hr style="margin: 8px 0; border-color: #F1F5F9;">
         <span style="font-size: 0.76rem; color: #64748B;">
-            Kriteria <i>perlu perhatian</i>: IPK &lt; 2,50 <b>atau</b> kehadiran &lt; 75% <b>atau</b> memiliki tunggakan UKT.
+            Kriteria <i>perlu perhatian</i>: IPK &lt; 2,50 <b>atau</b> kehadiran &lt; 82% <b>atau</b> memiliki tunggakan UKT.
         </span>
     </div>
     """.replace(",", "."),
@@ -775,6 +775,11 @@ with tab3:
 # ---------------------------------------------------------------- TAB 4: Kehadiran
 with tab4:
     st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
+    st.caption(
+        "ℹ️ **Kebijakan Presensi FIK**: Batas minimal kehadiran mahasiswa adalah **82%**, "
+        "karena mahasiswa hanya diperbolehkan maksimal tidak masuk **3 kali** dalam 1 semester (asumsi 16 pertemuan)."
+    )
+    st.markdown("<div style='height: 4px;'></div>", unsafe_allow_html=True)
     c1, c2 = st.columns([1, 1], gap="large")
 
     with c1:
@@ -790,7 +795,7 @@ with tab4:
             line_dash="dash",
             line_color=MERAH,
             line_width=2,
-            annotation_text="Batas 75%",
+            annotation_text="Batas 82% (maks. 3x alpa)",
             annotation_position="top left",
             annotation_font=dict(color=MERAH, size=11),
         )
@@ -867,7 +872,7 @@ with tab4:
         "kehadiran_persen"
     )
     st.caption(
-        f"Daftar {len(kurang)} mahasiswa berisiko tidak memenuhi batas minimal presensi ujian."
+        f"Daftar {len(kurang)} mahasiswa berisiko tidak memenuhi syarat ujian (kehadiran < 82% / tidak masuk > 3 kali)."
     )
     st.dataframe(
         kurang[
