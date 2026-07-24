@@ -11,7 +11,7 @@ import streamlit as st
 
 # ---------------------------------------------------------------- Konfigurasi Page
 st.set_page_config(
-    page_title="Dashboard BI Akademik FIK",
+    page_title="Dashboard BI - Fakultas Ilmu Komputer",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -232,7 +232,7 @@ def rupiah(nilai: float, singkat: bool = False) -> str:
 
 def rapikan(
     fig,
-    tinggi: int = 360,
+    tinggi: int = 500,
     xlabel: str = "",
     ylabel: str = "",
     legend_top: bool = True,
@@ -399,8 +399,8 @@ st.sidebar.markdown(
 st.markdown(
     """
     <div class="page-header">
-        <h1>Dashboard Analitik Akademik FIK</h1>
-        <p>Fakultas Ilmu Komputer — Pemantauan Indikator Kinerja Utama Mahasiswa</p>
+        <h1>Dashboard BI - Fakultas Ilmu Komputer</h1>
+        <p>Pemantauan Indikator Kinerja Utama & Profil Kinerja Mahasiswa</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -468,7 +468,7 @@ with tab1:
             font=dict(size=16, color="#0F172A", family="Plus Jakarta Sans"),
         )
         st.plotly_chart(
-            rapikan(fig, tinggi=360),
+            rapikan(fig, tinggi=500),
             use_container_width=True,
         )
 
@@ -490,12 +490,13 @@ with tab1:
         fig.update_traces(
             marker_line_width=0,
             textangle=0,
-            insidetextfont=dict(size=11, color="#FFFFFF"),
+            constraintext="none",
+            insidetextfont=dict(size=12, color="#FFFFFF"),
         )
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=360,
+                tinggi=520,
                 ylabel="Mahasiswa",
             ),
             use_container_width=True,
@@ -560,7 +561,7 @@ with tab2:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=360,
+                tinggi=500,
                 xlabel="Nilai IPK",
                 ylabel="Jumlah mahasiswa",
             ),
@@ -581,7 +582,7 @@ with tab2:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=360,
+                tinggi=500,
                 ylabel="IPK",
             ),
             use_container_width=True,
@@ -603,7 +604,7 @@ with tab2:
     st.plotly_chart(
         rapikan(
             fig,
-            tinggi=360,
+            tinggi=500,
             xlabel="Tahun angkatan",
             ylabel="Rata-rata IPK",
         ),
@@ -674,7 +675,7 @@ with tab3:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=360,
+                tinggi=500,
                 xlabel="Nominal tunggakan (Rupiah)",
                 legend_top=False,
             ),
@@ -700,7 +701,7 @@ with tab3:
             marker=dict(line=dict(color="#FFFFFF", width=2)),
         )
         st.plotly_chart(
-            rapikan(fig, tinggi=360),
+            rapikan(fig, tinggi=500),
             use_container_width=True,
         )
 
@@ -724,7 +725,7 @@ with tab3:
     st.plotly_chart(
         rapikan(
             fig,
-            tinggi=360,
+            tinggi=500,
             xlabel="Golongan UKT",
             ylabel="Total tunggakan (Rupiah)",
         ),
@@ -794,7 +795,7 @@ with tab4:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=360,
+                tinggi=500,
                 xlabel="Persentase kehadiran (%)",
                 ylabel="Mahasiswa",
             ),
@@ -816,7 +817,7 @@ with tab4:
         st.plotly_chart(
             rapikan(
                 fig,
-                tinggi=360,
+                tinggi=500,
                 xlabel="Kehadiran (%)",
                 ylabel="IPK",
             ),
@@ -856,7 +857,7 @@ with tab4:
     st.plotly_chart(
         rapikan(
             fig,
-            tinggi=360,
+            tinggi=500,
             xlabel="Tahun angkatan",
             ylabel="Rata-rata kehadiran (%)",
         ),
