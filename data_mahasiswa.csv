@@ -1,0 +1,901 @@
+nim,nama,jenis_kelamin,program_studi,angkatan,semester,status_akademik,ipk,sks_lulus,kehadiran_persen,golongan_ukt,nominal_ukt,tunggakan_ukt,status_pembayaran,dosen_pa
+22040001,Tiara Maulana,P,D3 Sistem Informasi,2022,9,Lulus,3.33,148,79.8,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22040002,Elsa Utami,P,D3 Sistem Informasi,2022,9,Non-Aktif,2.85,148,84.4,5,4600000,4600000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+22040003,Rizky Ramadhan,L,D3 Sistem Informasi,2022,9,Lulus,3.46,148,84.0,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22040004,Wahyu Setiawan,L,D3 Sistem Informasi,2022,9,Lulus,3.65,148,93.8,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22040005,Bimo Kusuma,L,D3 Sistem Informasi,2022,9,Lulus,3.09,148,75.8,4,3500000,0,Lunas,Dr. Sri Wahyuni
+22040006,Andre Lestari,L,D3 Sistem Informasi,2022,9,Aktif,2.77,148,72.5,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+22040007,Taufik Setiawan,L,D3 Sistem Informasi,2022,9,Aktif,3.2,148,87.8,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+22040008,Cahaya Utami,P,D3 Sistem Informasi,2022,9,Aktif,2.86,146,79.2,6,5800000,0,Lunas,Dr. Sri Wahyuni
+22040009,Lutfi Setiawan,L,D3 Sistem Informasi,2022,9,Aktif,2.67,143,74.5,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+22040010,Dewi Nugroho,P,D3 Sistem Informasi,2022,9,Aktif,3.86,148,92.2,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+22040011,Wahyu Saputra,L,D3 Sistem Informasi,2022,9,Aktif,3.05,148,81.1,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+22040012,Salsabila Anggraini,P,D3 Sistem Informasi,2022,9,Aktif,2.54,148,71.2,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+22040013,Galih Hidayat,L,D3 Sistem Informasi,2022,9,Cuti,3.99,148,83.9,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22040014,Andini Lestari,P,D3 Sistem Informasi,2022,9,Aktif,2.57,143,76.6,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+22040015,Fikri Maulana,L,D3 Sistem Informasi,2022,9,Aktif,3.29,148,92.6,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22040016,Yusuf Santoso,L,D3 Sistem Informasi,2022,9,Aktif,2.82,148,77.3,6,5800000,2900000,Cicilan,Dr. Sri Wahyuni
+22040017,Andre Lestari,L,D3 Sistem Informasi,2022,9,Lulus,3.63,148,96.4,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22040018,Citra Utami,P,D3 Sistem Informasi,2022,9,Aktif,2.82,148,74.9,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+22040019,Bayu Maulana,L,D3 Sistem Informasi,2022,9,Lulus,3.67,148,85.4,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+22040020,Ilham Firmansyah,L,D3 Sistem Informasi,2022,9,Aktif,3.87,148,97.2,6,5800000,0,Lunas,Dr. Arief Rahman
+22040021,Andre Permata,L,D3 Sistem Informasi,2022,9,Aktif,2.54,148,66.4,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+22010001,Maya Anggraini,P,S1 Informatika,2022,9,Lulus,3.01,148,82.8,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010002,Umar Nugroho,L,S1 Informatika,2022,9,Aktif,2.86,148,77.9,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010003,Umar Kusuma,L,S1 Informatika,2022,9,Lulus,3.15,143,76.7,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+22010004,Zahra Wijaya,P,S1 Informatika,2022,9,Cuti,2.66,143,67.3,8,8500000,12750000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+22010005,Andini Saputra,P,S1 Informatika,2022,9,Aktif,3.63,148,89.7,4,3500000,0,Lunas,Dr. Sri Wahyuni
+22010006,Taufik Maulana,L,S1 Informatika,2022,9,Lulus,3.14,148,79.9,5,4600000,0,Lunas,Dr. Arief Rahman
+22010007,Gita Wijaya,P,S1 Informatika,2022,9,Aktif,3.59,148,99.2,7,7000000,7000000,Menunggak,"Hendra Gunawan, M.Kom"
+22010008,Ilham Hakim,L,S1 Informatika,2022,9,Aktif,3.97,148,95.6,5,4600000,0,Lunas,Dr. Arief Rahman
+22010009,Farah Pratama,P,S1 Informatika,2022,9,Aktif,3.45,148,84.2,2,1000000,1500000,Menunggak,"Rizal Fadhillah, M.T"
+22010010,Joko Hidayat,L,S1 Informatika,2022,9,Aktif,3.18,148,86.9,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22010011,Hafiz Rahmawati,L,S1 Informatika,2022,9,Aktif,3.76,148,83.2,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+22010012,Putri Saputra,P,S1 Informatika,2022,9,Lulus,3.32,148,79.4,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+22010013,Hana Hakim,P,S1 Informatika,2022,9,Lulus,3.34,148,82.4,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22010014,Fikri Halim,L,S1 Informatika,2022,9,Non-Aktif,2.5,143,76.2,7,7000000,7000000,Menunggak,"Nur Aisyah, M.Sc"
+22010015,Sinta Maulana,P,S1 Informatika,2022,9,Lulus,3.86,148,90.1,6,5800000,0,Lunas,Dr. Arief Rahman
+22010016,Laras Utami,P,S1 Informatika,2022,9,Aktif,3.54,139,88.6,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22010017,Wahyu Anggraini,L,S1 Informatika,2022,9,Aktif,3.78,148,85.1,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+22010018,Gita Utami,P,S1 Informatika,2022,9,Aktif,3.33,148,82.4,6,5800000,0,Lunas,Dr. Arief Rahman
+22010019,Ayu Utami,P,S1 Informatika,2022,9,Aktif,2.47,135,73.5,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010020,Naufal Nugroho,L,S1 Informatika,2022,9,Lulus,3.59,148,99.8,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+22010021,Galih Hakim,L,S1 Informatika,2022,9,Aktif,2.85,148,76.1,8,8500000,0,Lunas,"Rizal Fadhillah, M.T"
+22010022,Dewi Maulana,P,S1 Informatika,2022,9,Lulus,3.41,144,89.1,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010023,Gilang Ramadhan,L,S1 Informatika,2022,9,Aktif,4.0,148,91.9,4,3500000,0,Lunas,Dr. Arief Rahman
+22010024,Bayu Santoso,L,S1 Informatika,2022,9,Lulus,4.0,148,96.0,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22010025,Kartika Permata,P,S1 Informatika,2022,9,Aktif,3.15,148,84.9,8,8500000,0,Lunas,Dr. Arief Rahman
+22010026,Bimo Santoso,L,S1 Informatika,2022,9,Lulus,3.19,144,75.1,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+22010027,Zahra Maulana,P,S1 Informatika,2022,9,Aktif,2.78,148,72.9,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010028,Vina Rahmawati,P,S1 Informatika,2022,9,Lulus,3.08,140,85.8,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+22010029,Elsa Saputra,P,S1 Informatika,2022,9,Lulus,3.31,148,88.1,5,4600000,0,Lunas,Dr. Arief Rahman
+22010030,Reza Maulana,L,S1 Informatika,2022,9,Aktif,2.49,141,69.8,3,2400000,0,Lunas,Dr. Arief Rahman
+22010031,Ahmad Syahputra,L,S1 Informatika,2022,9,Lulus,3.2,148,81.9,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010032,Galih Permata,L,S1 Informatika,2022,9,Aktif,3.16,148,88.1,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22010033,Umar Saputra,L,S1 Informatika,2022,9,Aktif,3.74,145,80.8,5,4600000,0,Lunas,Dr. Arief Rahman
+22010034,Tiara Saputra,P,S1 Informatika,2022,9,Non-Aktif,3.5,148,88.9,2,1000000,1000000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+22010035,Hafiz Wibowo,L,S1 Informatika,2022,9,Aktif,2.88,148,69.7,1,500000,0,Lunas,Dr. Sri Wahyuni
+22010036,Ilham Saputra,L,S1 Informatika,2022,9,Aktif,2.75,148,82.1,8,8500000,0,Lunas,"Nur Aisyah, M.Sc"
+22010037,Wahyu Maulana,L,S1 Informatika,2022,9,Lulus,4.0,148,86.5,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22010038,Fikri Rahmawati,L,S1 Informatika,2022,9,Aktif,3.0,148,79.2,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010039,Yusuf Nugroho,L,S1 Informatika,2022,9,Lulus,2.98,148,74.9,4,3500000,0,Lunas,Dr. Arief Rahman
+22010040,Satrio Hidayat,L,S1 Informatika,2022,9,Aktif,3.52,148,100.0,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22010041,Joko Hidayat,L,S1 Informatika,2022,9,Lulus,3.77,148,85.3,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+22010042,Bagas Santoso,L,S1 Informatika,2022,9,Aktif,3.22,148,84.3,1,500000,0,Lunas,Dr. Arief Rahman
+22010043,Taufik Wijaya,L,S1 Informatika,2022,9,Lulus,3.1,148,83.8,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22010044,Laras Lestari,P,S1 Informatika,2022,9,Lulus,3.12,146,80.4,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+22010045,Vina Hidayat,P,S1 Informatika,2022,9,Aktif,3.38,148,78.6,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+22010046,Aditya Nugroho,L,S1 Informatika,2022,9,Aktif,2.88,148,70.5,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+22010047,Laras Utami,P,S1 Informatika,2022,9,Lulus,3.07,148,76.5,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22010048,Elsa Wibowo,P,S1 Informatika,2022,9,Aktif,2.66,147,81.9,5,4600000,2300000,Cicilan,Dr. Arief Rahman
+22010049,Lutfi Pratama,L,S1 Informatika,2022,9,Non-Aktif,3.1,148,82.3,4,3500000,3500000,Menunggak,"Hendra Gunawan, M.Kom"
+22010050,Rizky Wijaya,L,S1 Informatika,2022,9,Lulus,3.82,144,85.7,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+22010051,Maya Anggraini,P,S1 Informatika,2022,9,Aktif,2.71,146,83.1,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22010052,Sinta Saputra,P,S1 Informatika,2022,9,Aktif,2.65,148,75.0,5,4600000,0,Lunas,Dr. Sri Wahyuni
+22010053,Vina Hidayat,P,S1 Informatika,2022,9,Aktif,2.99,148,75.6,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+22010054,Bimo Setiawan,L,S1 Informatika,2022,9,Lulus,3.54,148,80.3,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010055,Hafiz Saputra,L,S1 Informatika,2022,9,Aktif,2.53,146,67.1,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22010056,Hana Firmansyah,P,S1 Informatika,2022,9,Aktif,3.36,148,86.0,6,5800000,5800000,Menunggak,"Hendra Gunawan, M.Kom"
+22010057,Oktavia Ramadhan,P,S1 Informatika,2022,9,Lulus,3.07,145,80.2,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+22010058,Umar Permata,L,S1 Informatika,2022,9,Lulus,3.07,148,86.3,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22010059,Maya Lestari,P,S1 Informatika,2022,9,Aktif,3.18,146,96.1,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+22010060,Hana Ramadhan,P,S1 Informatika,2022,9,Lulus,3.19,141,85.9,5,4600000,0,Lunas,Dr. Arief Rahman
+22010061,Naufal Setiawan,L,S1 Informatika,2022,9,Lulus,3.35,148,85.1,4,3500000,0,Lunas,Dr. Arief Rahman
+22010062,Dewi Pratama,P,S1 Informatika,2022,9,Lulus,3.17,148,83.5,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+22010063,Fajar Hidayat,L,S1 Informatika,2022,9,Lulus,3.42,148,74.1,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010064,Rani Rahmawati,P,S1 Informatika,2022,9,Aktif,2.91,148,80.8,6,5800000,0,Lunas,Dr. Arief Rahman
+22010065,Fikri Utami,L,S1 Informatika,2022,9,Aktif,2.49,147,67.2,7,7000000,3500000,Cicilan,"Ir. Bambang Setyo, M.Kom"
+22010066,Andre Santoso,L,S1 Informatika,2022,9,Aktif,2.97,145,87.7,8,8500000,0,Lunas,"Nur Aisyah, M.Sc"
+22010067,Hafiz Wibowo,L,S1 Informatika,2022,9,Aktif,2.7,143,75.2,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+22010068,Galih Saputra,L,S1 Informatika,2022,9,Aktif,3.24,148,92.8,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+22010069,Fikri Santoso,L,S1 Informatika,2022,9,Lulus,3.0,145,82.2,8,8500000,0,Lunas,Dr. Arief Rahman
+22010070,Fikri Setiawan,L,S1 Informatika,2022,9,Lulus,3.37,148,86.6,4,3500000,0,Lunas,Dr. Arief Rahman
+22010071,Bimo Halim,L,S1 Informatika,2022,9,Aktif,3.29,148,73.7,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+22010072,Naufal Wijaya,L,S1 Informatika,2022,9,Lulus,3.72,148,82.5,1,500000,0,Lunas,"Yuni Kartika, M.T"
+22010073,Wahyu Santoso,L,S1 Informatika,2022,9,Aktif,2.88,144,77.5,8,8500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22010074,Dewi Utami,P,S1 Informatika,2022,9,Lulus,3.86,148,91.3,2,1000000,0,Lunas,"Nur Aisyah, M.Sc"
+22010075,Taufik Nugroho,L,S1 Informatika,2022,9,Lulus,3.35,140,84.9,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+22010076,Dandi Halim,L,S1 Informatika,2022,9,Aktif,3.51,148,84.1,3,2400000,1200000,Cicilan,"Ir. Bambang Setyo, M.Kom"
+22010077,Yusuf Kusuma,L,S1 Informatika,2022,9,Lulus,3.57,148,78.5,2,1000000,0,Lunas,Dr. Sri Wahyuni
+22030001,Melati Syahputra,P,S1 Sains Data,2022,9,Aktif,3.41,148,89.6,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+22030002,Hafiz Hakim,L,S1 Sains Data,2022,9,Aktif,3.58,148,75.7,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+22030003,Rizky Hidayat,L,S1 Sains Data,2022,9,Aktif,2.9,147,75.2,6,5800000,0,Lunas,Dr. Sri Wahyuni
+22030004,Kartika Halim,P,S1 Sains Data,2022,9,Lulus,3.77,148,83.5,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+22030005,Citra Setiawan,P,S1 Sains Data,2022,9,Lulus,3.37,148,79.3,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22030006,Nadia Ramadhan,P,S1 Sains Data,2022,9,Lulus,3.41,148,92.4,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+22030007,Oktavia Santoso,P,S1 Sains Data,2022,9,Aktif,2.26,146,74.0,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+22030008,Rizky Permata,L,S1 Sains Data,2022,9,Lulus,3.06,148,75.7,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+22030009,Fajar Maulana,L,S1 Sains Data,2022,9,Lulus,3.22,148,79.8,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22030010,Bimo Hidayat,L,S1 Sains Data,2022,9,Lulus,3.68,148,87.1,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22030011,Laras Nugroho,P,S1 Sains Data,2022,9,Aktif,2.36,148,61.2,6,5800000,11600000,Menunggak,"Dwi Handayani, M.Kom"
+22030012,Wahyu Utami,L,S1 Sains Data,2022,9,Lulus,3.39,148,75.4,2,1000000,0,Lunas,Dr. Sri Wahyuni
+22030013,Umar Maulana,L,S1 Sains Data,2022,9,Aktif,2.94,148,76.9,6,5800000,0,Lunas,Dr. Sri Wahyuni
+22030014,Sinta Hidayat,P,S1 Sains Data,2022,9,Aktif,3.28,144,83.9,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22030015,Hafiz Firmansyah,L,S1 Sains Data,2022,9,Aktif,3.74,148,87.5,4,3500000,3500000,Menunggak,Dr. Arief Rahman
+22030016,Salsabila Ramadhan,P,S1 Sains Data,2022,9,Lulus,3.27,143,76.6,4,3500000,0,Lunas,Dr. Arief Rahman
+22030017,Citra Pratama,P,S1 Sains Data,2022,9,Lulus,3.31,142,82.3,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+22030018,Aditya Permata,L,S1 Sains Data,2022,9,Aktif,2.44,143,80.2,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+22030019,Aditya Utami,L,S1 Sains Data,2022,9,Lulus,3.35,148,81.9,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+22030020,Gita Hakim,P,S1 Sains Data,2022,9,Lulus,3.22,148,84.5,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+22030021,Laras Hidayat,P,S1 Sains Data,2022,9,Lulus,3.15,148,88.4,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22030022,Hana Lestari,P,S1 Sains Data,2022,9,Aktif,3.23,148,75.7,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+22030023,Naufal Maulana,L,S1 Sains Data,2022,9,Aktif,2.76,141,69.6,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+22030024,Galih Utami,L,S1 Sains Data,2022,9,Aktif,3.27,143,77.4,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+22030025,Vina Rahmawati,P,S1 Sains Data,2022,9,Aktif,3.3,148,79.1,4,3500000,0,Lunas,Dr. Sri Wahyuni
+22030026,Elsa Wibowo,P,S1 Sains Data,2022,9,Lulus,3.23,148,88.8,3,2400000,0,Lunas,Dr. Arief Rahman
+22030027,Putri Nugroho,P,S1 Sains Data,2022,9,Aktif,2.82,148,72.1,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+22030028,Bayu Rahmawati,L,S1 Sains Data,2022,9,Aktif,2.82,148,76.0,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+22030029,Bagas Maulana,L,S1 Sains Data,2022,9,Lulus,3.94,148,94.8,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+22030030,Dimas Nugroho,L,S1 Sains Data,2022,9,Aktif,3.45,148,96.0,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22030031,Ayu Kusuma,P,S1 Sains Data,2022,9,Lulus,3.41,148,84.5,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22030032,Andini Halim,P,S1 Sains Data,2022,9,Aktif,3.65,148,85.6,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22030033,Andre Lestari,L,S1 Sains Data,2022,9,Aktif,2.75,148,83.6,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+22020001,Ilham Anggraini,L,S1 Sistem Informasi,2022,9,Lulus,3.29,148,100.0,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020002,Aditya Ramadhan,L,S1 Sistem Informasi,2022,9,Lulus,3.63,148,81.2,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020003,Sinta Maulana,P,S1 Sistem Informasi,2022,9,Lulus,3.44,148,81.9,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020004,Ilham Utami,L,S1 Sistem Informasi,2022,9,Aktif,2.62,147,80.7,3,2400000,0,Lunas,Dr. Arief Rahman
+22020005,Maya Rahmawati,P,S1 Sistem Informasi,2022,9,Aktif,2.91,148,81.0,1,500000,0,Lunas,Dr. Arief Rahman
+22020006,Bimo Kusuma,L,S1 Sistem Informasi,2022,9,Lulus,4.0,148,85.2,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+22020007,Farah Rahmawati,P,S1 Sistem Informasi,2022,9,Aktif,2.88,146,78.8,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22020008,Nadia Permata,P,S1 Sistem Informasi,2022,9,Lulus,2.96,148,81.2,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+22020009,Aditya Hakim,L,S1 Sistem Informasi,2022,9,Aktif,2.81,141,86.6,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020010,Vina Santoso,P,S1 Sistem Informasi,2022,9,Aktif,2.34,142,68.3,6,5800000,5800000,Menunggak,"Hendra Gunawan, M.Kom"
+22020011,Ayu Lestari,P,S1 Sistem Informasi,2022,9,Aktif,3.5,148,79.1,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+22020012,Anisa Lestari,P,S1 Sistem Informasi,2022,9,Aktif,3.61,148,74.4,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+22020013,Aditya Lestari,L,S1 Sistem Informasi,2022,9,Lulus,3.19,143,77.9,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020014,Laras Kusuma,P,S1 Sistem Informasi,2022,9,Aktif,3.22,148,87.2,4,3500000,0,Lunas,Dr. Sri Wahyuni
+22020015,Bimo Kusuma,L,S1 Sistem Informasi,2022,9,Lulus,2.99,148,88.6,3,2400000,0,Lunas,Dr. Arief Rahman
+22020016,Elsa Utami,P,S1 Sistem Informasi,2022,9,Aktif,2.85,142,72.4,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+22020017,Andini Wijaya,P,S1 Sistem Informasi,2022,9,Aktif,2.63,147,67.5,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22020018,Citra Setiawan,P,S1 Sistem Informasi,2022,9,Aktif,2.72,140,71.9,8,8500000,4250000,Cicilan,"Dwi Handayani, M.Kom"
+22020019,Andini Maulana,P,S1 Sistem Informasi,2022,9,Aktif,4.0,148,88.2,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020020,Anisa Permata,P,S1 Sistem Informasi,2022,9,Aktif,3.17,148,83.8,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+22020021,Bagas Utami,L,S1 Sistem Informasi,2022,9,Aktif,2.2,142,77.8,6,5800000,0,Lunas,Dr. Arief Rahman
+22020022,Sinta Wibowo,P,S1 Sistem Informasi,2022,9,Aktif,3.31,148,78.4,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+22020023,Satrio Ramadhan,L,S1 Sistem Informasi,2022,9,Lulus,3.08,146,79.3,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020024,Reza Ramadhan,L,S1 Sistem Informasi,2022,9,Non-Aktif,2.92,148,84.2,4,3500000,5250000,Menunggak,"Dwi Handayani, M.Kom"
+22020025,Tiara Kusuma,P,S1 Sistem Informasi,2022,9,Aktif,2.8,148,69.3,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+22020026,Bayu Pratama,L,S1 Sistem Informasi,2022,9,Aktif,3.93,148,83.0,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+22020027,Yusuf Permata,L,S1 Sistem Informasi,2022,9,Cuti,2.63,148,78.9,5,4600000,0,Lunas,Dr. Sri Wahyuni
+22020028,Anisa Anggraini,P,S1 Sistem Informasi,2022,9,Lulus,2.99,145,77.5,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020029,Fikri Saputra,L,S1 Sistem Informasi,2022,9,Aktif,4.0,148,85.3,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22020030,Hana Hidayat,P,S1 Sistem Informasi,2022,9,Lulus,2.93,148,86.6,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+22020031,Oktavia Wibowo,P,S1 Sistem Informasi,2022,9,Lulus,3.86,148,100.0,1,500000,0,Lunas,"Dwi Handayani, M.Kom"
+22020032,Wahyu Utami,L,S1 Sistem Informasi,2022,9,Aktif,3.39,145,85.1,5,4600000,0,Lunas,Dr. Sri Wahyuni
+22020033,Vina Wijaya,P,S1 Sistem Informasi,2022,9,Lulus,3.54,146,99.4,8,8500000,0,Lunas,"Rizal Fadhillah, M.T"
+22020034,Zahra Syahputra,P,S1 Sistem Informasi,2022,9,Lulus,3.89,148,87.3,4,3500000,0,Lunas,Dr. Arief Rahman
+22020035,Nadia Kusuma,P,S1 Sistem Informasi,2022,9,Aktif,3.69,148,92.7,3,2400000,0,Lunas,Dr. Sri Wahyuni
+22020036,Dimas Syahputra,L,S1 Sistem Informasi,2022,9,Lulus,3.57,148,78.3,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22020037,Melati Halim,P,S1 Sistem Informasi,2022,9,Lulus,3.88,147,91.6,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+22020038,Dimas Permata,L,S1 Sistem Informasi,2022,9,Lulus,3.28,148,78.8,6,5800000,0,Lunas,Dr. Arief Rahman
+22020039,Oktavia Permata,P,S1 Sistem Informasi,2022,9,Aktif,3.08,148,86.8,2,1000000,0,Lunas,"Rizal Fadhillah, M.T"
+22020040,Ayu Anggraini,P,S1 Sistem Informasi,2022,9,Lulus,3.07,146,90.9,4,3500000,0,Lunas,Dr. Sri Wahyuni
+22020041,Reza Ramadhan,L,S1 Sistem Informasi,2022,9,Lulus,3.13,148,81.2,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+22020042,Rizky Halim,L,S1 Sistem Informasi,2022,9,Lulus,3.17,148,82.6,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+22020043,Kartika Firmansyah,P,S1 Sistem Informasi,2022,9,Aktif,2.9,140,71.6,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020044,Galih Kusuma,L,S1 Sistem Informasi,2022,9,Lulus,3.5,148,84.5,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+22020045,Joko Hidayat,L,S1 Sistem Informasi,2022,9,Lulus,3.72,148,88.1,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020046,Fajar Permata,L,S1 Sistem Informasi,2022,9,Lulus,3.62,148,91.4,4,3500000,0,Lunas,Dr. Sri Wahyuni
+22020047,Rani Setiawan,P,S1 Sistem Informasi,2022,9,Aktif,2.71,147,76.3,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020048,Ayu Hakim,P,S1 Sistem Informasi,2022,9,Aktif,2.6,148,74.8,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020049,Tiara Nugroho,P,S1 Sistem Informasi,2022,9,Lulus,3.41,148,82.4,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+22020050,Lutfi Setiawan,L,S1 Sistem Informasi,2022,9,Lulus,3.83,148,97.4,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+22020051,Fajar Anggraini,L,S1 Sistem Informasi,2022,9,Aktif,2.85,148,87.3,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22020052,Ahmad Syahputra,L,S1 Sistem Informasi,2022,9,Aktif,2.55,145,70.3,3,2400000,0,Lunas,Dr. Sri Wahyuni
+22020053,Salsabila Kusuma,P,S1 Sistem Informasi,2022,9,Aktif,2.99,148,74.7,2,1000000,0,Lunas,"Rizal Fadhillah, M.T"
+22020054,Taufik Halim,L,S1 Sistem Informasi,2022,9,Aktif,2.64,148,65.2,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+22020055,Nadia Utami,P,S1 Sistem Informasi,2022,9,Lulus,3.05,148,87.9,6,5800000,0,Lunas,Dr. Sri Wahyuni
+22020056,Elsa Ramadhan,P,S1 Sistem Informasi,2022,9,Lulus,3.81,148,89.4,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020057,Andre Halim,L,S1 Sistem Informasi,2022,9,Non-Aktif,3.65,148,90.4,8,8500000,8500000,Menunggak,"Yuni Kartika, M.T"
+22020058,Reza Hakim,L,S1 Sistem Informasi,2022,9,Aktif,2.65,148,64.0,5,4600000,6900000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+22020059,Ilham Utami,L,S1 Sistem Informasi,2022,9,Lulus,3.4,146,87.2,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+22020060,Taufik Firmansyah,L,S1 Sistem Informasi,2022,9,Lulus,3.59,148,84.9,2,1000000,0,Lunas,Dr. Arief Rahman
+22020061,Bimo Wijaya,L,S1 Sistem Informasi,2022,9,Aktif,3.42,148,88.4,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+22020062,Umar Rahmawati,L,S1 Sistem Informasi,2022,9,Aktif,3.71,148,90.7,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+22020063,Elsa Wijaya,P,S1 Sistem Informasi,2022,9,Lulus,4.0,148,100.0,6,5800000,0,Lunas,Dr. Arief Rahman
+23040001,Gita Lestari,P,D3 Sistem Informasi,2023,7,Aktif,3.78,114,91.2,6,5800000,0,Lunas,Dr. Arief Rahman
+23040002,Andre Firmansyah,L,D3 Sistem Informasi,2023,7,Aktif,3.3,119,86.6,4,3500000,0,Lunas,Dr. Sri Wahyuni
+23040003,Dewi Ramadhan,P,D3 Sistem Informasi,2023,7,Non-Aktif,2.74,116,78.8,8,8500000,12750000,Menunggak,"Rizal Fadhillah, M.T"
+23040004,Salsabila Halim,P,D3 Sistem Informasi,2023,7,Aktif,2.85,96,77.8,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23040005,Nadia Santoso,P,D3 Sistem Informasi,2023,7,Aktif,4.0,116,83.7,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23040006,Tiara Saputra,P,D3 Sistem Informasi,2023,7,Aktif,3.15,107,97.4,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+23040007,Fajar Pratama,L,D3 Sistem Informasi,2023,7,Aktif,3.01,106,75.1,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23040008,Naufal Santoso,L,D3 Sistem Informasi,2023,7,Aktif,2.65,123,76.3,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23040009,Gilang Wijaya,L,D3 Sistem Informasi,2023,7,Aktif,3.8,119,93.0,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+23040010,Rani Hakim,P,D3 Sistem Informasi,2023,7,Aktif,2.19,100,68.1,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+23040011,Umar Halim,L,D3 Sistem Informasi,2023,7,Aktif,3.5,125,83.2,5,4600000,4600000,Menunggak,"Yuni Kartika, M.T"
+23040012,Rani Maulana,P,D3 Sistem Informasi,2023,7,Aktif,3.05,126,83.4,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+23040013,Bayu Saputra,L,D3 Sistem Informasi,2023,7,Aktif,3.85,106,86.4,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+23040014,Aditya Halim,L,D3 Sistem Informasi,2023,7,Aktif,3.28,128,82.2,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23040015,Lutfi Nugroho,L,D3 Sistem Informasi,2023,7,Aktif,2.85,107,76.6,6,5800000,0,Lunas,Dr. Sri Wahyuni
+23040016,Rizky Lestari,L,D3 Sistem Informasi,2023,7,Aktif,3.41,116,85.8,5,4600000,4600000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+23040017,Bimo Maulana,L,D3 Sistem Informasi,2023,7,Aktif,2.7,114,80.1,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23040018,Maya Utami,P,D3 Sistem Informasi,2023,7,Aktif,2.46,110,68.7,2,1000000,1000000,Menunggak,"Dwi Handayani, M.Kom"
+23040019,Aditya Syahputra,L,D3 Sistem Informasi,2023,7,Aktif,2.82,109,80.8,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23040020,Melati Rahmawati,P,D3 Sistem Informasi,2023,7,Aktif,3.64,119,80.6,4,3500000,0,Lunas,Dr. Arief Rahman
+23040021,Taufik Lestari,L,D3 Sistem Informasi,2023,7,Aktif,2.9,103,82.9,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+23040022,Dimas Hakim,L,D3 Sistem Informasi,2023,7,Aktif,3.24,109,91.8,7,7000000,0,Lunas,Dr. Sri Wahyuni
+23040023,Dimas Wibowo,L,D3 Sistem Informasi,2023,7,Aktif,3.2,110,82.5,3,2400000,0,Lunas,Dr. Sri Wahyuni
+23040024,Yusuf Setiawan,L,D3 Sistem Informasi,2023,7,Non-Aktif,3.21,114,87.7,7,7000000,3500000,Cicilan,"Nur Aisyah, M.Sc"
+23040025,Citra Anggraini,P,D3 Sistem Informasi,2023,7,Aktif,4.0,117,96.4,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23040026,Umar Wijaya,L,D3 Sistem Informasi,2023,7,Aktif,3.35,114,95.3,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23040027,Galih Firmansyah,L,D3 Sistem Informasi,2023,7,Aktif,3.65,108,74.6,7,7000000,14000000,Menunggak,Dr. Sri Wahyuni
+23040028,Vina Ramadhan,P,D3 Sistem Informasi,2023,7,Cuti,3.02,119,74.8,4,3500000,0,Lunas,Dr. Arief Rahman
+23040029,Yusuf Hakim,L,D3 Sistem Informasi,2023,7,Aktif,3.18,104,82.0,4,3500000,7000000,Menunggak,"Dwi Handayani, M.Kom"
+23040030,Ahmad Pratama,L,D3 Sistem Informasi,2023,7,Aktif,3.62,123,81.4,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010001,Elsa Wijaya,P,S1 Informatika,2023,7,Aktif,2.71,104,67.1,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010002,Fikri Syahputra,L,S1 Informatika,2023,7,Aktif,2.23,107,61.2,3,2400000,3600000,Menunggak,"Hendra Gunawan, M.Kom"
+23010003,Elsa Hakim,P,S1 Informatika,2023,7,Aktif,3.05,117,86.2,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23010004,Yusuf Maulana,L,S1 Informatika,2023,7,Aktif,3.51,119,84.7,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+23010005,Zahra Wibowo,P,S1 Informatika,2023,7,Aktif,2.84,105,88.7,2,1000000,0,Lunas,"Nur Aisyah, M.Sc"
+23010006,Andre Firmansyah,L,S1 Informatika,2023,7,Aktif,3.43,122,88.4,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010007,Aditya Firmansyah,L,S1 Informatika,2023,7,Aktif,2.66,116,71.5,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23010008,Elsa Permata,P,S1 Informatika,2023,7,Aktif,3.87,124,83.7,4,3500000,0,Lunas,Dr. Arief Rahman
+23010009,Ilham Halim,L,S1 Informatika,2023,7,Aktif,3.5,111,82.8,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+23010010,Fajar Firmansyah,L,S1 Informatika,2023,7,Aktif,3.17,118,75.4,3,2400000,0,Lunas,Dr. Sri Wahyuni
+23010011,Dimas Wibowo,L,S1 Informatika,2023,7,Aktif,3.3,108,75.8,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+23010012,Ilham Setiawan,L,S1 Informatika,2023,7,Aktif,3.54,119,82.1,4,3500000,0,Lunas,Dr. Sri Wahyuni
+23010013,Galih Pratama,L,S1 Informatika,2023,7,Aktif,2.85,115,79.0,3,2400000,1200000,Cicilan,"Yuni Kartika, M.T"
+23010014,Rizky Wibowo,L,S1 Informatika,2023,7,Aktif,3.41,111,84.7,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010015,Rani Lestari,P,S1 Informatika,2023,7,Aktif,3.44,109,87.1,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+23010016,Yusuf Permata,L,S1 Informatika,2023,7,Aktif,3.31,98,78.4,1,500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010017,Rani Nugroho,P,S1 Informatika,2023,7,Aktif,2.7,112,84.4,7,7000000,3500000,Cicilan,"Hendra Gunawan, M.Kom"
+23010018,Maya Syahputra,P,S1 Informatika,2023,7,Aktif,3.8,125,93.0,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010019,Dandi Pratama,L,S1 Informatika,2023,7,Aktif,3.46,117,96.0,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+23010020,Sinta Permata,P,S1 Informatika,2023,7,Aktif,3.2,114,78.4,7,7000000,14000000,Menunggak,"Nur Aisyah, M.Sc"
+23010021,Wahyu Rahmawati,L,S1 Informatika,2023,7,Aktif,2.88,108,93.4,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+23010022,Ilham Permata,L,S1 Informatika,2023,7,Aktif,2.79,99,71.3,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010023,Oktavia Hidayat,P,S1 Informatika,2023,7,Aktif,2.72,110,81.5,6,5800000,2900000,Cicilan,Dr. Sri Wahyuni
+23010024,Ahmad Maulana,L,S1 Informatika,2023,7,Aktif,2.51,112,78.7,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+23010025,Putri Lestari,P,S1 Informatika,2023,7,Aktif,2.98,118,84.3,7,7000000,0,Lunas,Dr. Arief Rahman
+23010026,Fikri Nugroho,L,S1 Informatika,2023,7,Aktif,2.57,107,66.8,7,7000000,7000000,Menunggak,Dr. Sri Wahyuni
+23010027,Elsa Saputra,P,S1 Informatika,2023,7,Aktif,3.05,113,79.8,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010028,Wahyu Lestari,L,S1 Informatika,2023,7,Aktif,3.69,115,87.5,3,2400000,2400000,Menunggak,"Yuni Kartika, M.T"
+23010029,Citra Pratama,P,S1 Informatika,2023,7,Aktif,2.98,112,70.8,5,4600000,0,Lunas,Dr. Arief Rahman
+23010030,Hana Utami,P,S1 Informatika,2023,7,Aktif,2.61,112,77.4,1,500000,0,Lunas,Dr. Arief Rahman
+23010031,Dewi Wibowo,P,S1 Informatika,2023,7,Non-Aktif,2.88,119,80.7,3,2400000,2400000,Menunggak,Dr. Sri Wahyuni
+23010032,Joko Nugroho,L,S1 Informatika,2023,7,Aktif,2.53,108,80.4,5,4600000,0,Lunas,Dr. Sri Wahyuni
+23010033,Citra Wijaya,P,S1 Informatika,2023,7,Aktif,3.46,114,85.4,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+23010034,Hafiz Utami,L,S1 Informatika,2023,7,Aktif,2.47,101,72.1,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010035,Indah Santoso,P,S1 Informatika,2023,7,Aktif,3.56,118,91.0,6,5800000,0,Lunas,Dr. Sri Wahyuni
+23010036,Wahyu Kusuma,L,S1 Informatika,2023,7,Aktif,3.06,113,86.8,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010037,Melati Permata,P,S1 Informatika,2023,7,Aktif,3.65,113,86.3,5,4600000,0,Lunas,Dr. Sri Wahyuni
+23010038,Bimo Kusuma,L,S1 Informatika,2023,7,Aktif,3.01,118,89.1,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+23010039,Tiara Halim,P,S1 Informatika,2023,7,Aktif,3.1,119,75.6,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010040,Hafiz Lestari,L,S1 Informatika,2023,7,Aktif,3.26,117,82.2,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+23010041,Andre Nugroho,L,S1 Informatika,2023,7,Non-Aktif,3.68,116,99.3,5,4600000,2300000,Cicilan,"Rizal Fadhillah, M.T"
+23010042,Ahmad Hakim,L,S1 Informatika,2023,7,Aktif,3.08,124,95.5,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+23010043,Oktavia Kusuma,P,S1 Informatika,2023,7,Aktif,2.94,118,73.5,6,5800000,2900000,Cicilan,"Nur Aisyah, M.Sc"
+23010044,Dewi Hakim,P,S1 Informatika,2023,7,Aktif,2.92,114,76.3,1,500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010045,Naufal Maulana,L,S1 Informatika,2023,7,Aktif,3.35,121,75.2,6,5800000,11600000,Menunggak,Dr. Arief Rahman
+23010046,Umar Wijaya,L,S1 Informatika,2023,7,Aktif,1.66,103,56.4,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010047,Rani Pratama,P,S1 Informatika,2023,7,Aktif,2.98,121,87.7,2,1000000,1500000,Menunggak,"Nur Aisyah, M.Sc"
+23010048,Joko Halim,L,S1 Informatika,2023,7,Aktif,2.57,112,75.8,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23010049,Reza Wibowo,L,S1 Informatika,2023,7,Aktif,3.41,124,92.7,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010050,Citra Wijaya,P,S1 Informatika,2023,7,Aktif,2.82,114,72.4,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+23010051,Ahmad Hakim,L,S1 Informatika,2023,7,Aktif,3.07,119,80.9,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+23010052,Lutfi Rahmawati,L,S1 Informatika,2023,7,Aktif,2.85,109,71.7,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+23010053,Dimas Saputra,L,S1 Informatika,2023,7,Aktif,3.33,120,89.7,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010054,Anisa Wijaya,P,S1 Informatika,2023,7,Aktif,3.79,116,88.6,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23010055,Aditya Lestari,L,S1 Informatika,2023,7,Cuti,3.08,112,81.5,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23010056,Fajar Firmansyah,L,S1 Informatika,2023,7,Aktif,4.0,117,86.0,4,3500000,0,Lunas,Dr. Arief Rahman
+23010057,Ayu Lestari,P,S1 Informatika,2023,7,Aktif,3.7,123,77.9,3,2400000,0,Lunas,Dr. Sri Wahyuni
+23010058,Putri Santoso,P,S1 Informatika,2023,7,Aktif,3.29,110,83.6,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010059,Indah Halim,P,S1 Informatika,2023,7,Non-Aktif,3.21,107,84.4,5,4600000,2300000,Cicilan,"Hendra Gunawan, M.Kom"
+23010060,Zahra Setiawan,P,S1 Informatika,2023,7,Aktif,3.91,112,84.0,5,4600000,0,Lunas,Dr. Arief Rahman
+23010061,Dandi Firmansyah,L,S1 Informatika,2023,7,Aktif,3.64,112,90.4,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+23010062,Bimo Pratama,L,S1 Informatika,2023,7,Aktif,3.15,114,94.3,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+23010063,Rani Wijaya,P,S1 Informatika,2023,7,Aktif,2.84,103,75.9,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+23010064,Bagas Hidayat,L,S1 Informatika,2023,7,Aktif,2.92,116,78.8,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010065,Farah Wijaya,P,S1 Informatika,2023,7,Aktif,3.73,108,76.8,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+23010066,Dandi Lestari,L,S1 Informatika,2023,7,Aktif,2.27,104,60.9,5,4600000,6900000,Menunggak,"Nur Aisyah, M.Sc"
+23010067,Taufik Maulana,L,S1 Informatika,2023,7,Aktif,3.0,114,77.4,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+23010068,Andini Wijaya,P,S1 Informatika,2023,7,Aktif,3.1,123,75.2,6,5800000,0,Lunas,Dr. Arief Rahman
+23010069,Anisa Pratama,P,S1 Informatika,2023,7,Aktif,3.67,126,87.5,4,3500000,3500000,Menunggak,Dr. Sri Wahyuni
+23010070,Andre Maulana,L,S1 Informatika,2023,7,Aktif,2.96,115,81.0,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+23010071,Kartika Lestari,P,S1 Informatika,2023,7,Aktif,3.03,109,75.9,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+23010072,Nadia Wijaya,P,S1 Informatika,2023,7,Aktif,3.59,113,86.5,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+23010073,Satrio Ramadhan,L,S1 Informatika,2023,7,Aktif,3.5,116,83.0,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+23010074,Taufik Kusuma,L,S1 Informatika,2023,7,Aktif,3.05,119,82.1,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23010075,Citra Syahputra,P,S1 Informatika,2023,7,Aktif,2.85,113,76.6,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010076,Bayu Wijaya,L,S1 Informatika,2023,7,Aktif,2.65,100,77.9,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010077,Cahaya Halim,P,S1 Informatika,2023,7,Aktif,3.02,117,76.1,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+23010078,Taufik Halim,L,S1 Informatika,2023,7,Aktif,3.64,118,75.3,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+23010079,Salsabila Hakim,P,S1 Informatika,2023,7,Aktif,2.82,104,82.5,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+23010080,Rizky Permata,L,S1 Informatika,2023,7,Aktif,3.37,116,86.3,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23010081,Bagas Permata,L,S1 Informatika,2023,7,Aktif,3.0,108,75.6,3,2400000,0,Lunas,Dr. Arief Rahman
+23010082,Tiara Setiawan,P,S1 Informatika,2023,7,Aktif,3.45,116,85.3,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+23010083,Laras Saputra,P,S1 Informatika,2023,7,Cuti,3.46,119,85.7,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010084,Dimas Nugroho,L,S1 Informatika,2023,7,Aktif,3.34,111,70.9,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+23010085,Satrio Maulana,L,S1 Informatika,2023,7,Aktif,2.63,110,68.8,6,5800000,0,Lunas,Dr. Arief Rahman
+23010086,Gilang Permata,L,S1 Informatika,2023,7,Non-Aktif,2.81,123,71.7,7,7000000,10500000,Menunggak,Dr. Sri Wahyuni
+23010087,Reza Maulana,L,S1 Informatika,2023,7,Aktif,3.31,118,84.8,5,4600000,0,Lunas,Dr. Arief Rahman
+23010088,Gilang Kusuma,L,S1 Informatika,2023,7,Aktif,3.4,114,82.0,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+23010089,Andini Wibowo,P,S1 Informatika,2023,7,Aktif,3.25,127,86.9,6,5800000,5800000,Menunggak,Dr. Arief Rahman
+23010090,Reza Anggraini,L,S1 Informatika,2023,7,Aktif,2.67,107,82.3,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23030001,Elsa Setiawan,P,S1 Sains Data,2023,7,Aktif,3.09,102,87.1,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+23030002,Wahyu Wijaya,L,S1 Sains Data,2023,7,Aktif,3.41,116,84.4,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23030003,Ilham Hidayat,L,S1 Sains Data,2023,7,Aktif,2.43,108,64.2,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+23030004,Nadia Permata,P,S1 Sains Data,2023,7,Aktif,3.1,127,89.1,8,8500000,8500000,Menunggak,"Yuni Kartika, M.T"
+23030005,Rizky Pratama,L,S1 Sains Data,2023,7,Aktif,3.49,113,88.2,5,4600000,0,Lunas,Dr. Arief Rahman
+23030006,Naufal Syahputra,L,S1 Sains Data,2023,7,Aktif,3.33,114,68.2,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+23030007,Kartika Wijaya,P,S1 Sains Data,2023,7,Aktif,3.34,122,85.7,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+23030008,Aditya Anggraini,L,S1 Sains Data,2023,7,Aktif,3.13,121,81.0,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+23030009,Wahyu Rahmawati,L,S1 Sains Data,2023,7,Aktif,3.31,113,75.6,6,5800000,5800000,Menunggak,"Nur Aisyah, M.Sc"
+23030010,Dandi Nugroho,L,S1 Sains Data,2023,7,Aktif,3.03,109,67.2,1,500000,750000,Menunggak,Dr. Arief Rahman
+23030011,Ilham Setiawan,L,S1 Sains Data,2023,7,Aktif,3.49,115,98.0,6,5800000,5800000,Menunggak,"Rizal Fadhillah, M.T"
+23030012,Naufal Santoso,L,S1 Sains Data,2023,7,Cuti,3.53,121,86.7,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+23030013,Aditya Maulana,L,S1 Sains Data,2023,7,Aktif,3.28,110,85.0,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23030014,Hafiz Lestari,L,S1 Sains Data,2023,7,Aktif,4.0,115,98.4,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23030015,Ayu Lestari,P,S1 Sains Data,2023,7,Aktif,2.54,115,79.4,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+23030016,Lutfi Lestari,L,S1 Sains Data,2023,7,Aktif,3.45,116,89.5,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+23030017,Putri Santoso,P,S1 Sains Data,2023,7,Aktif,3.23,117,81.1,1,500000,0,Lunas,"Dwi Handayani, M.Kom"
+23030018,Sinta Permata,P,S1 Sains Data,2023,7,Aktif,3.71,112,82.0,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+23030019,Yusuf Syahputra,L,S1 Sains Data,2023,7,Aktif,3.32,114,82.7,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23030020,Naufal Rahmawati,L,S1 Sains Data,2023,7,Aktif,3.19,115,89.8,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+23030021,Sinta Kusuma,P,S1 Sains Data,2023,7,Aktif,3.8,127,95.9,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+23030022,Joko Setiawan,L,S1 Sains Data,2023,7,Aktif,3.28,106,81.7,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23030023,Indah Wibowo,P,S1 Sains Data,2023,7,Aktif,2.99,103,85.0,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+23030024,Hana Setiawan,P,S1 Sains Data,2023,7,Aktif,3.3,108,83.2,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+23030025,Zahra Hakim,P,S1 Sains Data,2023,7,Aktif,3.04,115,89.5,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23030026,Maya Wijaya,P,S1 Sains Data,2023,7,Aktif,3.39,117,80.3,5,4600000,0,Lunas,Dr. Arief Rahman
+23030027,Fikri Maulana,L,S1 Sains Data,2023,7,Non-Aktif,2.65,101,81.0,4,3500000,1750000,Cicilan,Dr. Sri Wahyuni
+23030028,Andre Permata,L,S1 Sains Data,2023,7,Aktif,3.71,122,88.3,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+23030029,Elsa Halim,P,S1 Sains Data,2023,7,Cuti,3.11,111,80.4,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+23030030,Hafiz Syahputra,L,S1 Sains Data,2023,7,Aktif,3.15,124,72.9,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+23030031,Anisa Utami,P,S1 Sains Data,2023,7,Aktif,3.68,118,87.5,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+23030032,Joko Nugroho,L,S1 Sains Data,2023,7,Aktif,2.8,99,80.0,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+23030033,Anisa Ramadhan,P,S1 Sains Data,2023,7,Non-Aktif,3.35,105,94.3,4,3500000,3500000,Menunggak,"Rizal Fadhillah, M.T"
+23030034,Elsa Anggraini,P,S1 Sains Data,2023,7,Aktif,3.15,114,79.3,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23030035,Aditya Kusuma,L,S1 Sains Data,2023,7,Non-Aktif,2.15,109,67.6,3,2400000,2400000,Menunggak,"Dwi Handayani, M.Kom"
+23030036,Citra Nugroho,P,S1 Sains Data,2023,7,Aktif,2.39,100,70.9,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23030037,Fajar Anggraini,L,S1 Sains Data,2023,7,Aktif,3.29,115,85.8,3,2400000,0,Lunas,Dr. Sri Wahyuni
+23030038,Ahmad Rahmawati,L,S1 Sains Data,2023,7,Aktif,3.77,121,90.2,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23030039,Indah Syahputra,P,S1 Sains Data,2023,7,Aktif,3.31,120,81.3,4,3500000,7000000,Menunggak,"Nur Aisyah, M.Sc"
+23030040,Andini Setiawan,P,S1 Sains Data,2023,7,Aktif,3.43,114,94.8,3,2400000,0,Lunas,Dr. Arief Rahman
+23030041,Dandi Pratama,L,S1 Sains Data,2023,7,Aktif,3.59,125,78.9,8,8500000,0,Lunas,Dr. Arief Rahman
+23030042,Andini Anggraini,P,S1 Sains Data,2023,7,Aktif,2.74,112,74.2,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+23020001,Salsabila Anggraini,P,S1 Sistem Informasi,2023,7,Aktif,3.85,115,96.2,7,7000000,3500000,Cicilan,"Rizal Fadhillah, M.T"
+23020002,Lutfi Saputra,L,S1 Sistem Informasi,2023,7,Aktif,3.42,114,81.0,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+23020003,Ahmad Nugroho,L,S1 Sistem Informasi,2023,7,Cuti,2.82,125,75.8,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+23020004,Cahaya Maulana,P,S1 Sistem Informasi,2023,7,Aktif,2.23,104,76.6,6,5800000,2900000,Cicilan,"Rizal Fadhillah, M.T"
+23020005,Andre Wijaya,L,S1 Sistem Informasi,2023,7,Aktif,3.32,122,87.1,6,5800000,0,Lunas,Dr. Sri Wahyuni
+23020006,Joko Santoso,L,S1 Sistem Informasi,2023,7,Aktif,3.06,115,70.0,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+23020007,Cahaya Ramadhan,P,S1 Sistem Informasi,2023,7,Aktif,3.71,122,85.0,6,5800000,8700000,Menunggak,Dr. Sri Wahyuni
+23020008,Bayu Hidayat,L,S1 Sistem Informasi,2023,7,Aktif,3.24,118,83.8,4,3500000,1750000,Cicilan,Dr. Sri Wahyuni
+23020009,Satrio Wibowo,L,S1 Sistem Informasi,2023,7,Aktif,3.77,127,83.4,7,7000000,0,Lunas,Dr. Sri Wahyuni
+23020010,Wahyu Firmansyah,L,S1 Sistem Informasi,2023,7,Aktif,4.0,130,100.0,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+23020011,Tiara Syahputra,P,S1 Sistem Informasi,2023,7,Aktif,3.12,111,85.7,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+23020012,Dandi Lestari,L,S1 Sistem Informasi,2023,7,Aktif,3.48,112,79.2,4,3500000,0,Lunas,Dr. Sri Wahyuni
+23020013,Hafiz Lestari,L,S1 Sistem Informasi,2023,7,Aktif,2.65,118,77.7,6,5800000,0,Lunas,Dr. Arief Rahman
+23020014,Bagas Ramadhan,L,S1 Sistem Informasi,2023,7,Aktif,3.86,125,88.9,1,500000,0,Lunas,"Dwi Handayani, M.Kom"
+23020015,Indah Pratama,P,S1 Sistem Informasi,2023,7,Aktif,3.12,108,80.6,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+23020016,Andre Lestari,L,S1 Sistem Informasi,2023,7,Aktif,3.79,116,87.1,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23020017,Kartika Lestari,P,S1 Sistem Informasi,2023,7,Aktif,2.75,118,71.4,1,500000,0,Lunas,Dr. Arief Rahman
+23020018,Elsa Syahputra,P,S1 Sistem Informasi,2023,7,Aktif,3.07,106,86.7,7,7000000,0,Lunas,"Dwi Handayani, M.Kom"
+23020019,Wahyu Pratama,L,S1 Sistem Informasi,2023,7,Aktif,2.54,107,62.0,5,4600000,2300000,Cicilan,"Rizal Fadhillah, M.T"
+23020020,Lutfi Wibowo,L,S1 Sistem Informasi,2023,7,Aktif,2.68,113,70.3,8,8500000,0,Lunas,Dr. Sri Wahyuni
+23020021,Bagas Santoso,L,S1 Sistem Informasi,2023,7,Aktif,3.53,120,84.1,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020022,Rizky Maulana,L,S1 Sistem Informasi,2023,7,Aktif,3.21,121,74.1,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020023,Gita Ramadhan,P,S1 Sistem Informasi,2023,7,Aktif,2.75,116,75.9,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23020024,Bimo Anggraini,L,S1 Sistem Informasi,2023,7,Aktif,3.82,117,85.4,5,4600000,4600000,Menunggak,Dr. Arief Rahman
+23020025,Bagas Rahmawati,L,S1 Sistem Informasi,2023,7,Aktif,3.67,110,83.9,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+23020026,Lutfi Syahputra,L,S1 Sistem Informasi,2023,7,Aktif,3.0,108,67.6,5,4600000,4600000,Menunggak,"Hendra Gunawan, M.Kom"
+23020027,Maya Anggraini,P,S1 Sistem Informasi,2023,7,Aktif,2.63,107,76.8,1,500000,0,Lunas,"Dwi Handayani, M.Kom"
+23020028,Gilang Lestari,L,S1 Sistem Informasi,2023,7,Aktif,2.95,117,81.5,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+23020029,Andre Pratama,L,S1 Sistem Informasi,2023,7,Non-Aktif,4.0,124,89.5,3,2400000,3600000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+23020030,Vina Ramadhan,P,S1 Sistem Informasi,2023,7,Aktif,3.09,115,92.7,2,1000000,0,Lunas,Dr. Sri Wahyuni
+23020031,Wahyu Saputra,L,S1 Sistem Informasi,2023,7,Aktif,3.45,118,76.8,6,5800000,0,Lunas,Dr. Sri Wahyuni
+23020032,Rizky Wibowo,L,S1 Sistem Informasi,2023,7,Aktif,2.0,106,66.5,3,2400000,2400000,Menunggak,"Dwi Handayani, M.Kom"
+23020033,Dewi Lestari,P,S1 Sistem Informasi,2023,7,Aktif,3.55,117,79.5,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+23020034,Ahmad Setiawan,L,S1 Sistem Informasi,2023,7,Aktif,3.74,119,84.5,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+23020035,Gita Permata,P,S1 Sistem Informasi,2023,7,Aktif,3.09,119,92.0,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+23020036,Fikri Kusuma,L,S1 Sistem Informasi,2023,7,Aktif,2.79,107,61.4,3,2400000,0,Lunas,Dr. Sri Wahyuni
+23020037,Fikri Maulana,L,S1 Sistem Informasi,2023,7,Aktif,2.8,108,82.5,2,1000000,0,Lunas,Dr. Sri Wahyuni
+23020038,Galih Utami,L,S1 Sistem Informasi,2023,7,Aktif,3.35,114,87.5,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020039,Aditya Permata,L,S1 Sistem Informasi,2023,7,Aktif,3.63,115,87.7,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+23020040,Fikri Utami,L,S1 Sistem Informasi,2023,7,Aktif,4.0,123,84.6,6,5800000,5800000,Menunggak,Dr. Sri Wahyuni
+23020041,Putri Hidayat,P,S1 Sistem Informasi,2023,7,Aktif,2.62,117,79.0,7,7000000,14000000,Menunggak,Dr. Sri Wahyuni
+23020042,Salsabila Saputra,P,S1 Sistem Informasi,2023,7,Aktif,3.17,114,77.1,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+23020043,Joko Rahmawati,L,S1 Sistem Informasi,2023,7,Aktif,2.71,112,69.9,1,500000,1000000,Menunggak,"Rizal Fadhillah, M.T"
+23020044,Indah Santoso,P,S1 Sistem Informasi,2023,7,Non-Aktif,2.84,110,80.6,4,3500000,3500000,Menunggak,"Hendra Gunawan, M.Kom"
+23020045,Hana Nugroho,P,S1 Sistem Informasi,2023,7,Aktif,3.27,115,85.6,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23020046,Ilham Utami,L,S1 Sistem Informasi,2023,7,Aktif,3.52,127,84.2,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+23020047,Melati Saputra,P,S1 Sistem Informasi,2023,7,Aktif,3.53,131,89.1,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+23020048,Vina Saputra,P,S1 Sistem Informasi,2023,7,Aktif,3.52,120,90.6,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+23020049,Nadia Halim,P,S1 Sistem Informasi,2023,7,Aktif,3.81,122,94.9,5,4600000,0,Lunas,Dr. Arief Rahman
+23020050,Ahmad Maulana,L,S1 Sistem Informasi,2023,7,Aktif,3.32,119,86.0,4,3500000,0,Lunas,Dr. Arief Rahman
+23020051,Aditya Santoso,L,S1 Sistem Informasi,2023,7,Cuti,3.36,116,86.1,6,5800000,0,Lunas,Dr. Sri Wahyuni
+23020052,Laras Halim,P,S1 Sistem Informasi,2023,7,Aktif,3.12,112,86.9,7,7000000,7000000,Menunggak,"Nur Aisyah, M.Sc"
+23020053,Citra Nugroho,P,S1 Sistem Informasi,2023,7,Aktif,3.41,111,74.1,2,1000000,500000,Cicilan,"Dwi Handayani, M.Kom"
+23020054,Satrio Lestari,L,S1 Sistem Informasi,2023,7,Aktif,4.0,108,95.3,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+23020055,Andre Wijaya,L,S1 Sistem Informasi,2023,7,Aktif,3.63,106,84.9,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020056,Rani Pratama,P,S1 Sistem Informasi,2023,7,Non-Aktif,2.86,109,72.9,3,2400000,4800000,Menunggak,"Yuni Kartika, M.T"
+23020057,Bimo Hakim,L,S1 Sistem Informasi,2023,7,Aktif,2.51,99,76.0,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+23020058,Dimas Firmansyah,L,S1 Sistem Informasi,2023,7,Aktif,3.04,119,77.3,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+23020059,Umar Permata,L,S1 Sistem Informasi,2023,7,Aktif,3.55,105,88.0,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+23020060,Elsa Permata,P,S1 Sistem Informasi,2023,7,Aktif,3.32,119,79.9,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020061,Umar Maulana,L,S1 Sistem Informasi,2023,7,Aktif,3.54,115,86.1,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+23020062,Fikri Saputra,L,S1 Sistem Informasi,2023,7,Aktif,2.98,120,72.5,3,2400000,0,Lunas,Dr. Arief Rahman
+23020063,Zahra Lestari,P,S1 Sistem Informasi,2023,7,Aktif,3.49,115,95.0,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+23020064,Anisa Hidayat,P,S1 Sistem Informasi,2023,7,Aktif,2.41,113,74.1,2,1000000,500000,Cicilan,"Dwi Handayani, M.Kom"
+23020065,Farah Lestari,P,S1 Sistem Informasi,2023,7,Aktif,3.0,112,87.0,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+23020066,Hafiz Wibowo,L,S1 Sistem Informasi,2023,7,Aktif,3.65,116,86.5,8,8500000,12750000,Menunggak,"Dwi Handayani, M.Kom"
+23020067,Gita Santoso,P,S1 Sistem Informasi,2023,7,Aktif,3.55,111,72.4,2,1000000,0,Lunas,"Rizal Fadhillah, M.T"
+23020068,Ahmad Saputra,L,S1 Sistem Informasi,2023,7,Aktif,2.45,108,76.5,3,2400000,2400000,Menunggak,"Rizal Fadhillah, M.T"
+23020069,Dandi Maulana,L,S1 Sistem Informasi,2023,7,Aktif,3.01,102,88.7,3,2400000,4800000,Menunggak,"Dwi Handayani, M.Kom"
+23020070,Gilang Firmansyah,L,S1 Sistem Informasi,2023,7,Aktif,3.34,116,81.6,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+23020071,Dandi Lestari,L,S1 Sistem Informasi,2023,7,Aktif,2.83,106,74.5,4,3500000,3500000,Menunggak,Dr. Arief Rahman
+23020072,Hafiz Saputra,L,S1 Sistem Informasi,2023,7,Aktif,3.17,116,83.9,7,7000000,7000000,Menunggak,Dr. Sri Wahyuni
+23020073,Wahyu Kusuma,L,S1 Sistem Informasi,2023,7,Aktif,3.6,124,92.0,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020074,Fajar Pratama,L,S1 Sistem Informasi,2023,7,Aktif,3.98,126,88.9,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+23020075,Citra Syahputra,P,S1 Sistem Informasi,2023,7,Aktif,3.22,111,84.6,1,500000,0,Lunas,Dr. Arief Rahman
+23020076,Andre Setiawan,L,S1 Sistem Informasi,2023,7,Aktif,2.91,121,73.4,3,2400000,4800000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+23020077,Vina Syahputra,P,S1 Sistem Informasi,2023,7,Aktif,3.34,107,77.9,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+23020078,Galih Saputra,L,S1 Sistem Informasi,2023,7,Aktif,3.68,110,87.5,8,8500000,4250000,Cicilan,"Dwi Handayani, M.Kom"
+23020079,Umar Wibowo,L,S1 Sistem Informasi,2023,7,Aktif,3.41,115,83.9,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+23020080,Ilham Nugroho,L,S1 Sistem Informasi,2023,7,Aktif,3.36,104,77.9,3,2400000,1200000,Cicilan,"Yuni Kartika, M.T"
+23020081,Yusuf Halim,L,S1 Sistem Informasi,2023,7,Aktif,3.51,125,92.5,5,4600000,4600000,Menunggak,"Hendra Gunawan, M.Kom"
+23020082,Lutfi Setiawan,L,S1 Sistem Informasi,2023,7,Aktif,3.55,111,81.4,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+23020083,Dandi Kusuma,L,S1 Sistem Informasi,2023,7,Aktif,3.87,119,91.7,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+23020084,Wahyu Maulana,L,S1 Sistem Informasi,2023,7,Aktif,3.53,116,80.5,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+24040001,Ayu Wijaya,P,D3 Sistem Informasi,2024,5,Aktif,2.94,83,82.4,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+24040002,Hafiz Saputra,L,D3 Sistem Informasi,2024,5,Aktif,2.67,73,70.2,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+24040003,Umar Lestari,L,D3 Sistem Informasi,2024,5,Aktif,2.65,92,78.9,7,7000000,0,Lunas,Dr. Arief Rahman
+24040004,Reza Pratama,L,D3 Sistem Informasi,2024,5,Aktif,3.3,82,76.7,4,3500000,0,Lunas,Dr. Arief Rahman
+24040005,Laras Hakim,P,D3 Sistem Informasi,2024,5,Aktif,2.91,86,79.0,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+24040006,Wahyu Utami,L,D3 Sistem Informasi,2024,5,Non-Aktif,3.03,74,76.9,7,7000000,7000000,Menunggak,"Yuni Kartika, M.T"
+24040007,Reza Wibowo,L,D3 Sistem Informasi,2024,5,Aktif,3.05,70,86.8,1,500000,0,Lunas,"Dwi Handayani, M.Kom"
+24040008,Satrio Santoso,L,D3 Sistem Informasi,2024,5,Aktif,3.11,80,73.9,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+24040009,Rizky Kusuma,L,D3 Sistem Informasi,2024,5,Non-Aktif,4.0,94,91.5,5,4600000,4600000,Menunggak,"Hendra Gunawan, M.Kom"
+24040010,Cahaya Wibowo,P,D3 Sistem Informasi,2024,5,Aktif,3.12,62,79.7,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+24040011,Gilang Utami,L,D3 Sistem Informasi,2024,5,Cuti,2.61,65,82.9,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24040012,Laras Firmansyah,P,D3 Sistem Informasi,2024,5,Aktif,2.78,84,85.9,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24040013,Nadia Pratama,P,D3 Sistem Informasi,2024,5,Aktif,2.92,75,71.6,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+24040014,Anisa Nugroho,P,D3 Sistem Informasi,2024,5,Aktif,3.39,79,96.7,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+24040015,Bagas Wibowo,L,D3 Sistem Informasi,2024,5,Aktif,3.31,74,85.1,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+24040016,Zahra Anggraini,P,D3 Sistem Informasi,2024,5,Aktif,2.61,84,69.4,6,5800000,5800000,Menunggak,Dr. Sri Wahyuni
+24040017,Oktavia Setiawan,P,D3 Sistem Informasi,2024,5,Aktif,3.12,83,86.6,2,1000000,0,Lunas,"Rizal Fadhillah, M.T"
+24040018,Fajar Maulana,L,D3 Sistem Informasi,2024,5,Aktif,2.82,68,77.5,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+24040019,Vina Saputra,P,D3 Sistem Informasi,2024,5,Aktif,2.73,80,76.2,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+24040020,Fikri Santoso,L,D3 Sistem Informasi,2024,5,Aktif,2.34,69,74.0,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24040021,Bayu Syahputra,L,D3 Sistem Informasi,2024,5,Aktif,3.38,77,88.2,5,4600000,0,Lunas,Dr. Arief Rahman
+24040022,Anisa Saputra,P,D3 Sistem Informasi,2024,5,Aktif,2.55,77,71.5,5,4600000,2300000,Cicilan,"Hendra Gunawan, M.Kom"
+24040023,Taufik Santoso,L,D3 Sistem Informasi,2024,5,Aktif,3.06,77,80.0,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+24040024,Tiara Permata,P,D3 Sistem Informasi,2024,5,Aktif,3.8,81,95.3,1,500000,0,Lunas,"Yuni Kartika, M.T"
+24040025,Tiara Rahmawati,P,D3 Sistem Informasi,2024,5,Aktif,3.84,83,84.3,8,8500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24040026,Kartika Rahmawati,P,D3 Sistem Informasi,2024,5,Aktif,2.82,73,77.4,4,3500000,0,Lunas,Dr. Sri Wahyuni
+24040027,Rani Rahmawati,P,D3 Sistem Informasi,2024,5,Aktif,2.93,90,81.4,2,1000000,0,Lunas,Dr. Arief Rahman
+24040028,Putri Pratama,P,D3 Sistem Informasi,2024,5,Non-Aktif,3.34,81,78.2,1,500000,750000,Menunggak,"Dwi Handayani, M.Kom"
+24040029,Fajar Halim,L,D3 Sistem Informasi,2024,5,Aktif,3.49,83,89.4,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24040030,Andini Hakim,P,D3 Sistem Informasi,2024,5,Aktif,3.57,74,89.3,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+24040031,Oktavia Halim,P,D3 Sistem Informasi,2024,5,Aktif,3.21,77,70.3,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24040032,Bayu Nugroho,L,D3 Sistem Informasi,2024,5,Aktif,3.19,70,79.9,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24040033,Bayu Permata,L,D3 Sistem Informasi,2024,5,Aktif,2.8,73,76.1,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+24040034,Taufik Nugroho,L,D3 Sistem Informasi,2024,5,Aktif,2.98,74,70.3,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24040035,Aditya Syahputra,L,D3 Sistem Informasi,2024,5,Aktif,3.03,77,68.8,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+24040036,Naufal Lestari,L,D3 Sistem Informasi,2024,5,Aktif,3.3,88,83.9,1,500000,0,Lunas,Dr. Arief Rahman
+24040037,Farah Lestari,P,D3 Sistem Informasi,2024,5,Aktif,2.55,76,72.0,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+24010001,Ilham Rahmawati,L,S1 Informatika,2024,5,Aktif,3.24,80,75.4,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+24010002,Tiara Nugroho,P,S1 Informatika,2024,5,Aktif,3.69,81,93.0,1,500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010003,Rani Saputra,P,S1 Informatika,2024,5,Aktif,2.71,78,77.9,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24010004,Umar Hidayat,L,S1 Informatika,2024,5,Aktif,3.99,78,92.7,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010005,Hana Saputra,P,S1 Informatika,2024,5,Aktif,3.29,68,88.9,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+24010006,Andini Halim,P,S1 Informatika,2024,5,Aktif,3.27,73,76.7,7,7000000,3500000,Cicilan,"Nur Aisyah, M.Sc"
+24010007,Reza Santoso,L,S1 Informatika,2024,5,Aktif,3.5,83,90.0,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+24010008,Nadia Setiawan,P,S1 Informatika,2024,5,Aktif,2.99,73,73.1,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+24010009,Ayu Halim,P,S1 Informatika,2024,5,Aktif,3.06,68,72.0,4,3500000,0,Lunas,Dr. Arief Rahman
+24010010,Dandi Utami,L,S1 Informatika,2024,5,Aktif,2.64,73,72.7,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010011,Rani Wibowo,P,S1 Informatika,2024,5,Aktif,3.63,62,78.3,6,5800000,0,Lunas,Dr. Sri Wahyuni
+24010012,Gilang Setiawan,L,S1 Informatika,2024,5,Aktif,3.4,86,78.9,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010013,Dandi Lestari,L,S1 Informatika,2024,5,Aktif,3.04,88,88.2,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+24010014,Aditya Wibowo,L,S1 Informatika,2024,5,Aktif,3.44,70,91.7,8,8500000,0,Lunas,Dr. Arief Rahman
+24010015,Anisa Wijaya,P,S1 Informatika,2024,5,Aktif,3.63,78,88.9,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+24010016,Anisa Lestari,P,S1 Informatika,2024,5,Aktif,3.14,76,76.9,8,8500000,0,Lunas,Dr. Arief Rahman
+24010017,Rizky Santoso,L,S1 Informatika,2024,5,Aktif,4.0,86,97.3,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24010018,Rizky Nugroho,L,S1 Informatika,2024,5,Aktif,3.49,81,79.8,8,8500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24010019,Cahaya Permata,P,S1 Informatika,2024,5,Aktif,3.59,68,92.4,5,4600000,4600000,Menunggak,Dr. Sri Wahyuni
+24010020,Naufal Wijaya,L,S1 Informatika,2024,5,Non-Aktif,3.24,73,82.1,5,4600000,4600000,Menunggak,Dr. Sri Wahyuni
+24010021,Cahaya Setiawan,P,S1 Informatika,2024,5,Aktif,3.11,73,82.9,7,7000000,7000000,Menunggak,"Yuni Kartika, M.T"
+24010022,Bimo Permata,L,S1 Informatika,2024,5,Aktif,3.07,82,78.3,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010023,Joko Syahputra,L,S1 Informatika,2024,5,Aktif,3.03,71,85.1,2,1000000,0,Lunas,Dr. Arief Rahman
+24010024,Zahra Permata,P,S1 Informatika,2024,5,Aktif,3.28,77,83.5,7,7000000,0,Lunas,"Dwi Handayani, M.Kom"
+24010025,Ahmad Firmansyah,L,S1 Informatika,2024,5,Aktif,3.93,75,97.4,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24010026,Galih Halim,L,S1 Informatika,2024,5,Aktif,2.91,79,75.0,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+24010027,Reza Nugroho,L,S1 Informatika,2024,5,Aktif,3.33,82,86.0,4,3500000,3500000,Menunggak,"Nur Aisyah, M.Sc"
+24010028,Sinta Wibowo,P,S1 Informatika,2024,5,Aktif,2.76,81,67.4,5,4600000,4600000,Menunggak,"Yuni Kartika, M.T"
+24010029,Gilang Maulana,L,S1 Informatika,2024,5,Aktif,2.66,77,81.6,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+24010030,Oktavia Permata,P,S1 Informatika,2024,5,Aktif,4.0,73,85.0,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+24010031,Gilang Rahmawati,L,S1 Informatika,2024,5,Aktif,3.41,78,78.0,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+24010032,Bayu Setiawan,L,S1 Informatika,2024,5,Aktif,3.7,74,92.2,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010033,Dandi Pratama,L,S1 Informatika,2024,5,Aktif,3.62,84,79.1,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+24010034,Sinta Wibowo,P,S1 Informatika,2024,5,Aktif,3.0,72,64.2,7,7000000,3500000,Cicilan,"Nur Aisyah, M.Sc"
+24010035,Dandi Permata,L,S1 Informatika,2024,5,Aktif,3.33,77,84.6,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+24010036,Umar Firmansyah,L,S1 Informatika,2024,5,Aktif,3.46,79,89.3,5,4600000,0,Lunas,Dr. Sri Wahyuni
+24010037,Dandi Permata,L,S1 Informatika,2024,5,Aktif,2.77,74,72.4,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+24010038,Indah Firmansyah,P,S1 Informatika,2024,5,Aktif,3.3,86,84.2,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010039,Nadia Lestari,P,S1 Informatika,2024,5,Aktif,3.21,68,65.2,1,500000,0,Lunas,"Dwi Handayani, M.Kom"
+24010040,Rizky Nugroho,L,S1 Informatika,2024,5,Aktif,2.56,79,77.8,4,3500000,7000000,Menunggak,Dr. Sri Wahyuni
+24010041,Zahra Nugroho,P,S1 Informatika,2024,5,Aktif,3.6,72,91.4,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24010042,Gilang Firmansyah,L,S1 Informatika,2024,5,Aktif,2.7,65,81.6,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+24010043,Aditya Firmansyah,L,S1 Informatika,2024,5,Aktif,2.99,89,79.4,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010044,Yusuf Nugroho,L,S1 Informatika,2024,5,Aktif,2.71,82,75.8,4,3500000,0,Lunas,Dr. Sri Wahyuni
+24010045,Gita Saputra,P,S1 Informatika,2024,5,Aktif,3.68,73,91.0,7,7000000,0,Lunas,Dr. Sri Wahyuni
+24010046,Melati Wijaya,P,S1 Informatika,2024,5,Aktif,3.7,78,89.2,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+24010047,Anisa Kusuma,P,S1 Informatika,2024,5,Aktif,3.6,89,74.9,7,7000000,7000000,Menunggak,"Hendra Gunawan, M.Kom"
+24010048,Citra Hakim,P,S1 Informatika,2024,5,Aktif,3.21,84,86.0,8,8500000,0,Lunas,"Rizal Fadhillah, M.T"
+24010049,Dandi Lestari,L,S1 Informatika,2024,5,Aktif,3.82,79,91.3,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+24010050,Melati Wibowo,P,S1 Informatika,2024,5,Aktif,4.0,80,91.3,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+24010051,Lutfi Utami,L,S1 Informatika,2024,5,Aktif,3.56,69,92.9,1,500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24010052,Zahra Kusuma,P,S1 Informatika,2024,5,Aktif,3.31,82,91.5,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010053,Tiara Hidayat,P,S1 Informatika,2024,5,Aktif,2.95,72,66.7,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+24010054,Yusuf Halim,L,S1 Informatika,2024,5,Cuti,4.0,80,91.3,7,7000000,3500000,Cicilan,"Ir. Bambang Setyo, M.Kom"
+24010055,Dimas Hakim,L,S1 Informatika,2024,5,Non-Aktif,3.25,73,82.3,1,500000,250000,Cicilan,"Nur Aisyah, M.Sc"
+24010056,Dimas Saputra,L,S1 Informatika,2024,5,Aktif,4.0,77,94.8,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+24010057,Rani Pratama,P,S1 Informatika,2024,5,Aktif,3.63,82,91.2,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+24010058,Galih Santoso,L,S1 Informatika,2024,5,Aktif,3.6,75,85.9,8,8500000,0,Lunas,Dr. Sri Wahyuni
+24010059,Salsabila Syahputra,P,S1 Informatika,2024,5,Aktif,2.19,77,74.5,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010060,Yusuf Pratama,L,S1 Informatika,2024,5,Aktif,3.03,73,79.8,3,2400000,0,Lunas,Dr. Arief Rahman
+24010061,Melati Kusuma,P,S1 Informatika,2024,5,Aktif,2.24,71,71.6,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+24010062,Ayu Setiawan,P,S1 Informatika,2024,5,Aktif,3.92,86,93.5,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+24010063,Bimo Saputra,L,S1 Informatika,2024,5,Aktif,3.37,76,77.5,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+24010064,Citra Firmansyah,P,S1 Informatika,2024,5,Aktif,3.41,81,82.2,4,3500000,1750000,Cicilan,"Dwi Handayani, M.Kom"
+24010065,Dandi Santoso,L,S1 Informatika,2024,5,Aktif,2.92,76,90.1,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+24010066,Farah Hidayat,P,S1 Informatika,2024,5,Non-Aktif,3.38,68,92.9,4,3500000,3500000,Menunggak,Dr. Arief Rahman
+24010067,Dandi Setiawan,L,S1 Informatika,2024,5,Aktif,3.23,68,93.1,5,4600000,4600000,Menunggak,Dr. Sri Wahyuni
+24010068,Gita Santoso,P,S1 Informatika,2024,5,Aktif,3.13,74,81.1,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010069,Reza Syahputra,L,S1 Informatika,2024,5,Aktif,3.16,88,84.5,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+24010070,Indah Halim,P,S1 Informatika,2024,5,Aktif,2.49,80,74.8,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+24010071,Laras Halim,P,S1 Informatika,2024,5,Aktif,2.9,76,76.0,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24010072,Yusuf Setiawan,L,S1 Informatika,2024,5,Aktif,2.52,75,79.6,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24010073,Gita Lestari,P,S1 Informatika,2024,5,Aktif,4.0,90,82.7,4,3500000,0,Lunas,Dr. Arief Rahman
+24010074,Lutfi Wijaya,L,S1 Informatika,2024,5,Aktif,3.83,86,88.6,8,8500000,8500000,Menunggak,"Nur Aisyah, M.Sc"
+24030001,Putri Firmansyah,P,S1 Sains Data,2024,5,Aktif,3.78,80,96.6,1,500000,0,Lunas,Dr. Arief Rahman
+24030002,Salsabila Utami,P,S1 Sains Data,2024,5,Aktif,2.83,90,72.9,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+24030003,Yusuf Nugroho,L,S1 Sains Data,2024,5,Aktif,3.24,77,83.4,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24030004,Aditya Maulana,L,S1 Sains Data,2024,5,Aktif,3.23,72,86.8,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+24030005,Joko Santoso,L,S1 Sains Data,2024,5,Aktif,3.28,80,82.7,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24030006,Fikri Hakim,L,S1 Sains Data,2024,5,Aktif,3.32,84,87.7,7,7000000,7000000,Menunggak,"Hendra Gunawan, M.Kom"
+24030007,Joko Maulana,L,S1 Sains Data,2024,5,Aktif,3.28,72,76.1,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+24030008,Wahyu Hidayat,L,S1 Sains Data,2024,5,Aktif,2.99,72,79.1,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24030009,Satrio Lestari,L,S1 Sains Data,2024,5,Aktif,2.82,71,74.7,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+24030010,Citra Hidayat,P,S1 Sains Data,2024,5,Aktif,3.92,86,91.5,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24030011,Hana Wibowo,P,S1 Sains Data,2024,5,Aktif,3.74,73,75.3,6,5800000,11600000,Menunggak,"Yuni Kartika, M.T"
+24030012,Gilang Permata,L,S1 Sains Data,2024,5,Aktif,3.81,77,89.3,3,2400000,0,Lunas,Dr. Arief Rahman
+24030013,Naufal Maulana,L,S1 Sains Data,2024,5,Aktif,3.49,86,82.3,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+24030014,Melati Maulana,P,S1 Sains Data,2024,5,Non-Aktif,3.66,64,74.6,1,500000,250000,Cicilan,"Ir. Bambang Setyo, M.Kom"
+24030015,Hana Anggraini,P,S1 Sains Data,2024,5,Aktif,4.0,85,95.0,5,4600000,0,Lunas,Dr. Arief Rahman
+24030016,Citra Anggraini,P,S1 Sains Data,2024,5,Aktif,3.16,81,79.3,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+24030017,Aditya Saputra,L,S1 Sains Data,2024,5,Aktif,3.04,79,76.1,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24030018,Bayu Utami,L,S1 Sains Data,2024,5,Aktif,3.35,80,86.5,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+24030019,Bagas Permata,L,S1 Sains Data,2024,5,Cuti,2.94,70,75.6,7,7000000,0,Lunas,Dr. Arief Rahman
+24030020,Zahra Rahmawati,P,S1 Sains Data,2024,5,Aktif,2.93,68,77.0,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+24030021,Wahyu Lestari,L,S1 Sains Data,2024,5,Aktif,3.02,75,77.1,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+24030022,Dandi Anggraini,L,S1 Sains Data,2024,5,Aktif,3.71,81,84.3,4,3500000,1750000,Cicilan,"Yuni Kartika, M.T"
+24030023,Andini Rahmawati,P,S1 Sains Data,2024,5,Aktif,2.44,74,87.0,1,500000,250000,Cicilan,Dr. Sri Wahyuni
+24030024,Bimo Permata,L,S1 Sains Data,2024,5,Aktif,3.16,78,85.1,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+24030025,Dandi Syahputra,L,S1 Sains Data,2024,5,Aktif,3.15,72,72.9,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24030026,Galih Ramadhan,L,S1 Sains Data,2024,5,Aktif,3.65,74,88.2,1,500000,0,Lunas,"Nur Aisyah, M.Sc"
+24030027,Yusuf Santoso,L,S1 Sains Data,2024,5,Aktif,2.93,84,73.2,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+24030028,Fajar Lestari,L,S1 Sains Data,2024,5,Aktif,3.55,75,86.1,8,8500000,12750000,Menunggak,Dr. Arief Rahman
+24030029,Vina Lestari,P,S1 Sains Data,2024,5,Aktif,3.37,69,92.8,6,5800000,0,Lunas,Dr. Sri Wahyuni
+24030030,Laras Wijaya,P,S1 Sains Data,2024,5,Aktif,3.57,91,84.3,7,7000000,0,Lunas,Dr. Arief Rahman
+24030031,Ahmad Hidayat,L,S1 Sains Data,2024,5,Aktif,2.86,77,75.2,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+24030032,Sinta Anggraini,P,S1 Sains Data,2024,5,Aktif,3.18,70,82.9,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+24030033,Wahyu Utami,L,S1 Sains Data,2024,5,Non-Aktif,3.24,70,80.1,5,4600000,4600000,Menunggak,Dr. Arief Rahman
+24030034,Bimo Hidayat,L,S1 Sains Data,2024,5,Aktif,3.25,72,83.4,3,2400000,0,Lunas,Dr. Sri Wahyuni
+24030035,Bayu Kusuma,L,S1 Sains Data,2024,5,Aktif,3.67,71,88.5,1,500000,500000,Menunggak,"Hendra Gunawan, M.Kom"
+24030036,Hana Santoso,P,S1 Sains Data,2024,5,Aktif,3.1,68,78.4,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+24030037,Salsabila Wibowo,P,S1 Sains Data,2024,5,Aktif,3.71,75,94.9,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+24030038,Tiara Ramadhan,P,S1 Sains Data,2024,5,Aktif,3.2,75,82.4,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+24030039,Bagas Utami,L,S1 Sains Data,2024,5,Non-Aktif,2.79,77,74.3,4,3500000,3500000,Menunggak,"Nur Aisyah, M.Sc"
+24020001,Andini Syahputra,P,S1 Sistem Informasi,2024,5,Aktif,3.69,86,91.1,6,5800000,0,Lunas,Dr. Arief Rahman
+24020002,Naufal Santoso,L,S1 Sistem Informasi,2024,5,Aktif,2.66,71,72.9,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+24020003,Andre Anggraini,L,S1 Sistem Informasi,2024,5,Aktif,4.0,75,100.0,6,5800000,2900000,Cicilan,Dr. Arief Rahman
+24020004,Reza Permata,L,S1 Sistem Informasi,2024,5,Aktif,3.29,61,86.8,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+24020005,Tiara Wijaya,P,S1 Sistem Informasi,2024,5,Aktif,3.25,68,71.9,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+24020006,Anisa Hidayat,P,S1 Sistem Informasi,2024,5,Aktif,2.64,69,72.7,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+24020007,Tiara Santoso,P,S1 Sistem Informasi,2024,5,Aktif,3.73,75,90.2,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+24020008,Ayu Halim,P,S1 Sistem Informasi,2024,5,Aktif,3.34,89,82.2,3,2400000,0,Lunas,Dr. Sri Wahyuni
+24020009,Umar Santoso,L,S1 Sistem Informasi,2024,5,Aktif,3.1,66,92.0,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+24020010,Rizky Pratama,L,S1 Sistem Informasi,2024,5,Aktif,2.68,76,71.2,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24020011,Laras Wijaya,P,S1 Sistem Informasi,2024,5,Aktif,2.97,69,63.4,5,4600000,2300000,Cicilan,"Hendra Gunawan, M.Kom"
+24020012,Hana Wijaya,P,S1 Sistem Informasi,2024,5,Aktif,3.37,83,78.4,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+24020013,Tiara Nugroho,P,S1 Sistem Informasi,2024,5,Aktif,3.09,77,87.4,7,7000000,3500000,Cicilan,"Ir. Bambang Setyo, M.Kom"
+24020014,Bayu Syahputra,L,S1 Sistem Informasi,2024,5,Aktif,3.55,67,82.6,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020015,Umar Setiawan,L,S1 Sistem Informasi,2024,5,Aktif,3.17,77,91.9,8,8500000,8500000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+24020016,Ilham Ramadhan,L,S1 Sistem Informasi,2024,5,Cuti,2.9,66,84.2,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+24020017,Lutfi Hakim,L,S1 Sistem Informasi,2024,5,Aktif,3.02,72,87.0,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+24020018,Zahra Ramadhan,P,S1 Sistem Informasi,2024,5,Aktif,2.88,80,82.1,7,7000000,3500000,Cicilan,"Ir. Bambang Setyo, M.Kom"
+24020019,Ahmad Hidayat,L,S1 Sistem Informasi,2024,5,Aktif,3.2,66,71.8,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020020,Maya Firmansyah,P,S1 Sistem Informasi,2024,5,Aktif,3.02,76,78.0,8,8500000,4250000,Cicilan,Dr. Arief Rahman
+24020021,Bagas Lestari,L,S1 Sistem Informasi,2024,5,Aktif,2.89,78,71.3,7,7000000,0,Lunas,"Yuni Kartika, M.T"
+24020022,Hana Syahputra,P,S1 Sistem Informasi,2024,5,Aktif,3.07,73,82.4,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+24020023,Umar Syahputra,L,S1 Sistem Informasi,2024,5,Aktif,3.72,67,84.8,5,4600000,0,Lunas,Dr. Sri Wahyuni
+24020024,Hafiz Santoso,L,S1 Sistem Informasi,2024,5,Aktif,3.79,80,94.8,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24020025,Oktavia Halim,P,S1 Sistem Informasi,2024,5,Aktif,3.41,81,82.0,8,8500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24020026,Reza Halim,L,S1 Sistem Informasi,2024,5,Aktif,3.97,74,84.8,5,4600000,9200000,Menunggak,Dr. Sri Wahyuni
+24020027,Putri Permata,P,S1 Sistem Informasi,2024,5,Aktif,3.45,69,84.8,5,4600000,0,Lunas,Dr. Arief Rahman
+24020028,Anisa Kusuma,P,S1 Sistem Informasi,2024,5,Aktif,3.5,74,88.0,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+24020029,Fajar Halim,L,S1 Sistem Informasi,2024,5,Aktif,3.11,69,86.8,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24020030,Elsa Hakim,P,S1 Sistem Informasi,2024,5,Non-Aktif,3.31,85,91.8,4,3500000,3500000,Menunggak,"Yuni Kartika, M.T"
+24020031,Rani Wijaya,P,S1 Sistem Informasi,2024,5,Aktif,2.6,64,78.6,8,8500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24020032,Ahmad Utami,L,S1 Sistem Informasi,2024,5,Aktif,2.83,78,86.6,7,7000000,0,Lunas,Dr. Sri Wahyuni
+24020033,Fikri Kusuma,L,S1 Sistem Informasi,2024,5,Non-Aktif,3.87,76,93.3,1,500000,1000000,Menunggak,"Yuni Kartika, M.T"
+24020034,Fikri Hakim,L,S1 Sistem Informasi,2024,5,Aktif,3.16,81,77.7,7,7000000,7000000,Menunggak,"Dwi Handayani, M.Kom"
+24020035,Elsa Kusuma,P,S1 Sistem Informasi,2024,5,Aktif,3.12,77,75.2,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020036,Elsa Nugroho,P,S1 Sistem Informasi,2024,5,Aktif,2.85,78,75.9,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020037,Dimas Santoso,L,S1 Sistem Informasi,2024,5,Aktif,3.1,90,93.1,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+24020038,Elsa Firmansyah,P,S1 Sistem Informasi,2024,5,Aktif,2.74,75,76.9,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+24020039,Zahra Wibowo,P,S1 Sistem Informasi,2024,5,Aktif,3.45,71,85.8,2,1000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020040,Reza Setiawan,L,S1 Sistem Informasi,2024,5,Aktif,4.0,88,85.5,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+24020041,Ahmad Nugroho,L,S1 Sistem Informasi,2024,5,Aktif,4.0,83,84.1,6,5800000,5800000,Menunggak,"Nur Aisyah, M.Sc"
+24020042,Indah Ramadhan,P,S1 Sistem Informasi,2024,5,Aktif,3.42,78,80.7,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+24020043,Aditya Setiawan,L,S1 Sistem Informasi,2024,5,Aktif,2.88,74,78.2,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+24020044,Farah Santoso,P,S1 Sistem Informasi,2024,5,Aktif,3.77,82,88.8,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+24020045,Bayu Pratama,L,S1 Sistem Informasi,2024,5,Aktif,3.29,74,88.4,1,500000,0,Lunas,Dr. Sri Wahyuni
+24020046,Reza Wijaya,L,S1 Sistem Informasi,2024,5,Aktif,2.8,78,75.4,3,2400000,0,Lunas,Dr. Sri Wahyuni
+24020047,Salsabila Saputra,P,S1 Sistem Informasi,2024,5,Aktif,3.3,75,82.8,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+24020048,Hafiz Kusuma,L,S1 Sistem Informasi,2024,5,Aktif,3.57,90,96.8,3,2400000,2400000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+24020049,Melati Rahmawati,P,S1 Sistem Informasi,2024,5,Aktif,3.07,68,81.6,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+24020050,Zahra Anggraini,P,S1 Sistem Informasi,2024,5,Aktif,3.06,79,84.1,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+24020051,Yusuf Wijaya,L,S1 Sistem Informasi,2024,5,Aktif,3.97,85,91.9,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+24020052,Taufik Halim,L,S1 Sistem Informasi,2024,5,Aktif,3.06,64,74.8,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+24020053,Gilang Hakim,L,S1 Sistem Informasi,2024,5,Aktif,3.48,84,86.3,7,7000000,0,Lunas,"Dwi Handayani, M.Kom"
+24020054,Fajar Halim,L,S1 Sistem Informasi,2024,5,Aktif,3.75,85,98.2,6,5800000,0,Lunas,Dr. Sri Wahyuni
+24020055,Hafiz Ramadhan,L,S1 Sistem Informasi,2024,5,Aktif,3.5,70,83.4,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020056,Ayu Wibowo,P,S1 Sistem Informasi,2024,5,Aktif,3.16,82,77.7,6,5800000,2900000,Cicilan,"Hendra Gunawan, M.Kom"
+24020057,Andre Maulana,L,S1 Sistem Informasi,2024,5,Aktif,3.54,72,95.1,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+24020058,Galih Anggraini,L,S1 Sistem Informasi,2024,5,Aktif,3.41,76,79.9,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+24020059,Bayu Wibowo,L,S1 Sistem Informasi,2024,5,Non-Aktif,3.05,79,77.7,5,4600000,9200000,Menunggak,"Rizal Fadhillah, M.T"
+24020060,Laras Rahmawati,P,S1 Sistem Informasi,2024,5,Aktif,3.41,75,81.9,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+24020061,Vina Setiawan,P,S1 Sistem Informasi,2024,5,Aktif,3.36,66,87.2,6,5800000,5800000,Menunggak,"Hendra Gunawan, M.Kom"
+24020062,Andini Kusuma,P,S1 Sistem Informasi,2024,5,Aktif,2.31,65,75.5,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020063,Lutfi Saputra,L,S1 Sistem Informasi,2024,5,Non-Aktif,2.94,80,72.2,3,2400000,1200000,Cicilan,"Dwi Handayani, M.Kom"
+24020064,Taufik Halim,L,S1 Sistem Informasi,2024,5,Aktif,2.92,75,80.2,3,2400000,2400000,Menunggak,"Rizal Fadhillah, M.T"
+24020065,Taufik Maulana,L,S1 Sistem Informasi,2024,5,Aktif,3.25,73,76.6,3,2400000,0,Lunas,Dr. Sri Wahyuni
+24020066,Vina Firmansyah,P,S1 Sistem Informasi,2024,5,Aktif,3.03,71,83.0,5,4600000,0,Lunas,Dr. Arief Rahman
+24020067,Dewi Setiawan,P,S1 Sistem Informasi,2024,5,Aktif,3.44,71,91.7,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+24020068,Zahra Halim,P,S1 Sistem Informasi,2024,5,Aktif,4.0,83,84.7,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+24020069,Cahaya Permata,P,S1 Sistem Informasi,2024,5,Aktif,3.76,77,85.6,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020070,Hafiz Ramadhan,L,S1 Sistem Informasi,2024,5,Aktif,3.91,73,90.6,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+24020071,Dandi Firmansyah,L,S1 Sistem Informasi,2024,5,Non-Aktif,1.92,76,67.4,4,3500000,3500000,Menunggak,"Hendra Gunawan, M.Kom"
+24020072,Kartika Permata,P,S1 Sistem Informasi,2024,5,Cuti,3.59,81,79.3,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+24020073,Gilang Pratama,L,S1 Sistem Informasi,2024,5,Aktif,2.73,80,62.4,7,7000000,7000000,Menunggak,"Hendra Gunawan, M.Kom"
+24020074,Ayu Santoso,P,S1 Sistem Informasi,2024,5,Non-Aktif,2.97,76,80.7,8,8500000,12750000,Menunggak,Dr. Arief Rahman
+25040001,Lutfi Syahputra,L,D3 Sistem Informasi,2025,3,Aktif,3.61,26,80.8,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+25040002,Joko Syahputra,L,D3 Sistem Informasi,2025,3,Aktif,3.57,37,80.8,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25040003,Maya Utami,P,D3 Sistem Informasi,2025,3,Aktif,2.87,40,87.1,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+25040004,Lutfi Rahmawati,L,D3 Sistem Informasi,2025,3,Cuti,3.19,41,82.1,8,8500000,0,Lunas,Dr. Sri Wahyuni
+25040005,Laras Permata,P,D3 Sistem Informasi,2025,3,Aktif,3.3,30,86.6,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+25040006,Dimas Hakim,L,D3 Sistem Informasi,2025,3,Cuti,3.05,47,73.9,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+25040007,Fajar Maulana,L,D3 Sistem Informasi,2025,3,Aktif,2.74,41,80.6,3,2400000,0,Lunas,Dr. Arief Rahman
+25040008,Galih Anggraini,L,D3 Sistem Informasi,2025,3,Aktif,2.7,25,73.3,7,7000000,10500000,Menunggak,"Hendra Gunawan, M.Kom"
+25040009,Cahaya Kusuma,P,D3 Sistem Informasi,2025,3,Aktif,2.84,42,70.9,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+25040010,Hana Anggraini,P,D3 Sistem Informasi,2025,3,Aktif,3.96,35,88.8,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+25040011,Andini Maulana,P,D3 Sistem Informasi,2025,3,Aktif,2.95,45,74.6,3,2400000,0,Lunas,Dr. Sri Wahyuni
+25040012,Fajar Maulana,L,D3 Sistem Informasi,2025,3,Aktif,3.15,37,71.3,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25040013,Yusuf Rahmawati,L,D3 Sistem Informasi,2025,3,Aktif,3.92,43,81.7,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+25040014,Ayu Utami,P,D3 Sistem Informasi,2025,3,Aktif,3.58,36,86.8,5,4600000,0,Lunas,Dr. Sri Wahyuni
+25040015,Andre Kusuma,L,D3 Sistem Informasi,2025,3,Aktif,2.89,40,77.0,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25040016,Hafiz Setiawan,L,D3 Sistem Informasi,2025,3,Non-Aktif,2.75,43,69.9,3,2400000,1200000,Cicilan,"Rizal Fadhillah, M.T"
+25040017,Rani Nugroho,P,D3 Sistem Informasi,2025,3,Aktif,3.39,48,80.5,1,500000,0,Lunas,"Hendra Gunawan, M.Kom"
+25040018,Sinta Permata,P,D3 Sistem Informasi,2025,3,Aktif,3.02,39,76.9,8,8500000,0,Lunas,Dr. Sri Wahyuni
+25040019,Galih Kusuma,L,D3 Sistem Informasi,2025,3,Aktif,2.52,41,80.4,4,3500000,1750000,Cicilan,Dr. Sri Wahyuni
+25040020,Lutfi Nugroho,L,D3 Sistem Informasi,2025,3,Aktif,3.04,31,87.1,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25040021,Lutfi Setiawan,L,D3 Sistem Informasi,2025,3,Aktif,3.5,20,81.6,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+25040022,Lutfi Wijaya,L,D3 Sistem Informasi,2025,3,Aktif,3.89,28,91.2,8,8500000,0,Lunas,"Hendra Gunawan, M.Kom"
+25040023,Ahmad Rahmawati,L,D3 Sistem Informasi,2025,3,Aktif,3.29,28,96.3,3,2400000,0,Lunas,Dr. Sri Wahyuni
+25040024,Lutfi Nugroho,L,D3 Sistem Informasi,2025,3,Aktif,3.25,31,76.2,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+25040025,Bimo Maulana,L,D3 Sistem Informasi,2025,3,Aktif,3.39,32,78.9,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+25040026,Rizky Setiawan,L,D3 Sistem Informasi,2025,3,Aktif,4.0,28,89.9,4,3500000,1750000,Cicilan,"Nur Aisyah, M.Sc"
+25040027,Hafiz Syahputra,L,D3 Sistem Informasi,2025,3,Aktif,3.27,33,88.2,4,3500000,1750000,Cicilan,Dr. Sri Wahyuni
+25040028,Galih Syahputra,L,D3 Sistem Informasi,2025,3,Aktif,3.6,44,91.8,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+25040029,Melati Wibowo,P,D3 Sistem Informasi,2025,3,Aktif,3.21,31,86.7,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25040030,Farah Ramadhan,P,D3 Sistem Informasi,2025,3,Aktif,3.14,44,81.0,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+25040031,Maya Utami,P,D3 Sistem Informasi,2025,3,Aktif,2.71,48,63.0,8,8500000,0,Lunas,Dr. Arief Rahman
+25010001,Zahra Hidayat,P,S1 Informatika,2025,3,Aktif,3.63,43,90.6,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25010002,Cahaya Wijaya,P,S1 Informatika,2025,3,Aktif,3.49,40,90.1,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25010003,Galih Permata,L,S1 Informatika,2025,3,Aktif,2.49,32,67.4,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+25010004,Elsa Lestari,P,S1 Informatika,2025,3,Aktif,2.66,39,68.0,6,5800000,0,Lunas,Dr. Sri Wahyuni
+25010005,Dimas Permata,L,S1 Informatika,2025,3,Aktif,3.34,28,75.8,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+25010006,Dandi Setiawan,L,S1 Informatika,2025,3,Aktif,3.1,34,77.5,6,5800000,0,Lunas,Dr. Arief Rahman
+25010007,Bimo Halim,L,S1 Informatika,2025,3,Aktif,3.62,34,80.8,4,3500000,3500000,Menunggak,"Rizal Fadhillah, M.T"
+25010008,Aditya Hidayat,L,S1 Informatika,2025,3,Aktif,3.94,50,92.3,1,500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010009,Umar Utami,L,S1 Informatika,2025,3,Aktif,3.61,48,90.3,3,2400000,2400000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+25010010,Reza Firmansyah,L,S1 Informatika,2025,3,Aktif,2.95,40,69.2,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+25010011,Wahyu Permata,L,S1 Informatika,2025,3,Aktif,2.74,28,73.4,2,1000000,0,Lunas,Dr. Sri Wahyuni
+25010012,Cahaya Rahmawati,P,S1 Informatika,2025,3,Cuti,3.98,47,82.3,4,3500000,7000000,Menunggak,"Dwi Handayani, M.Kom"
+25010013,Dewi Syahputra,P,S1 Informatika,2025,3,Aktif,3.4,29,85.8,4,3500000,0,Lunas,Dr. Arief Rahman
+25010014,Maya Lestari,P,S1 Informatika,2025,3,Aktif,3.61,33,88.9,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+25010015,Laras Santoso,P,S1 Informatika,2025,3,Aktif,3.19,31,86.0,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+25010016,Oktavia Anggraini,P,S1 Informatika,2025,3,Aktif,2.65,38,69.0,5,4600000,4600000,Menunggak,"Nur Aisyah, M.Sc"
+25010017,Cahaya Santoso,P,S1 Informatika,2025,3,Aktif,3.47,37,82.7,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+25010018,Elsa Setiawan,P,S1 Informatika,2025,3,Aktif,3.49,36,86.9,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010019,Andre Santoso,L,S1 Informatika,2025,3,Aktif,3.29,34,92.5,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+25010020,Ilham Santoso,L,S1 Informatika,2025,3,Aktif,3.02,40,85.2,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25010021,Bimo Halim,L,S1 Informatika,2025,3,Aktif,2.57,37,79.8,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010022,Ayu Kusuma,P,S1 Informatika,2025,3,Aktif,3.5,36,92.9,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+25010023,Rani Maulana,P,S1 Informatika,2025,3,Aktif,2.41,39,67.5,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+25010024,Dimas Kusuma,L,S1 Informatika,2025,3,Non-Aktif,3.1,44,77.7,4,3500000,1750000,Cicilan,Dr. Arief Rahman
+25010025,Tiara Ramadhan,P,S1 Informatika,2025,3,Aktif,3.37,40,87.7,7,7000000,0,Lunas,"Nur Aisyah, M.Sc"
+25010026,Yusuf Hidayat,L,S1 Informatika,2025,3,Aktif,3.76,39,97.0,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010027,Tiara Rahmawati,P,S1 Informatika,2025,3,Aktif,2.58,38,72.7,2,1000000,0,Lunas,"Rizal Fadhillah, M.T"
+25010028,Naufal Anggraini,L,S1 Informatika,2025,3,Aktif,3.54,29,92.1,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010029,Citra Halim,P,S1 Informatika,2025,3,Aktif,3.53,33,81.8,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010030,Tiara Hidayat,P,S1 Informatika,2025,3,Aktif,2.86,47,74.3,6,5800000,0,Lunas,Dr. Sri Wahyuni
+25010031,Gita Rahmawati,P,S1 Informatika,2025,3,Aktif,3.12,36,79.4,3,2400000,2400000,Menunggak,"Nur Aisyah, M.Sc"
+25010032,Ahmad Rahmawati,L,S1 Informatika,2025,3,Aktif,3.12,43,72.2,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010033,Sinta Hakim,P,S1 Informatika,2025,3,Aktif,3.44,41,75.0,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+25010034,Rizky Hidayat,L,S1 Informatika,2025,3,Aktif,3.21,35,77.4,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010035,Zahra Halim,P,S1 Informatika,2025,3,Aktif,3.51,32,76.6,8,8500000,0,Lunas,"Nur Aisyah, M.Sc"
+25010036,Andini Santoso,P,S1 Informatika,2025,3,Aktif,3.28,43,82.5,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010037,Yusuf Setiawan,L,S1 Informatika,2025,3,Aktif,3.48,34,99.4,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+25010038,Melati Firmansyah,P,S1 Informatika,2025,3,Aktif,3.75,35,86.6,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25010039,Maya Kusuma,P,S1 Informatika,2025,3,Aktif,3.39,36,84.4,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010040,Citra Rahmawati,P,S1 Informatika,2025,3,Aktif,3.07,31,93.3,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+25010041,Fajar Saputra,L,S1 Informatika,2025,3,Aktif,2.75,30,88.6,7,7000000,0,Lunas,Dr. Arief Rahman
+25010042,Vina Wibowo,P,S1 Informatika,2025,3,Aktif,2.68,32,69.2,5,4600000,0,Lunas,Dr. Arief Rahman
+25010043,Andini Anggraini,P,S1 Informatika,2025,3,Aktif,2.92,31,76.5,8,8500000,0,Lunas,"Yuni Kartika, M.T"
+25010044,Anisa Pratama,P,S1 Informatika,2025,3,Aktif,2.87,41,83.0,4,3500000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010045,Satrio Syahputra,L,S1 Informatika,2025,3,Aktif,2.86,35,79.5,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010046,Fikri Setiawan,L,S1 Informatika,2025,3,Aktif,3.8,33,90.2,6,5800000,8700000,Menunggak,"Yuni Kartika, M.T"
+25010047,Taufik Saputra,L,S1 Informatika,2025,3,Aktif,2.77,41,75.3,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25010048,Andre Hakim,L,S1 Informatika,2025,3,Aktif,3.04,43,82.4,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010049,Tiara Hakim,P,S1 Informatika,2025,3,Aktif,3.63,35,90.8,2,1000000,1000000,Menunggak,"Nur Aisyah, M.Sc"
+25010050,Salsabila Syahputra,P,S1 Informatika,2025,3,Cuti,2.44,36,73.5,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+25010051,Rani Permata,P,S1 Informatika,2025,3,Aktif,2.67,46,73.6,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+25010052,Andre Rahmawati,L,S1 Informatika,2025,3,Aktif,2.86,41,79.4,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+25010053,Lutfi Nugroho,L,S1 Informatika,2025,3,Aktif,1.57,38,64.5,2,1000000,1000000,Menunggak,"Ir. Bambang Setyo, M.Kom"
+25010054,Zahra Pratama,P,S1 Informatika,2025,3,Aktif,3.17,29,83.2,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+25010055,Bayu Ramadhan,L,S1 Informatika,2025,3,Aktif,3.54,50,94.0,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+25010056,Laras Rahmawati,P,S1 Informatika,2025,3,Non-Aktif,2.56,39,72.8,3,2400000,2400000,Menunggak,"Nur Aisyah, M.Sc"
+25010057,Vina Wibowo,P,S1 Informatika,2025,3,Cuti,3.89,35,80.5,2,1000000,0,Lunas,Dr. Arief Rahman
+25010058,Ayu Wijaya,P,S1 Informatika,2025,3,Aktif,3.29,41,79.3,2,1000000,0,Lunas,Dr. Arief Rahman
+25010059,Rizky Ramadhan,L,S1 Informatika,2025,3,Aktif,2.71,46,71.5,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+25010060,Farah Anggraini,P,S1 Informatika,2025,3,Cuti,2.87,24,78.4,5,4600000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010061,Maya Anggraini,P,S1 Informatika,2025,3,Aktif,2.84,35,77.3,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+25010062,Laras Pratama,P,S1 Informatika,2025,3,Non-Aktif,2.93,34,72.5,8,8500000,8500000,Menunggak,"Dwi Handayani, M.Kom"
+25010063,Melati Firmansyah,P,S1 Informatika,2025,3,Aktif,2.58,35,67.6,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25010064,Kartika Rahmawati,P,S1 Informatika,2025,3,Aktif,3.63,43,97.7,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010065,Melati Maulana,P,S1 Informatika,2025,3,Aktif,2.84,28,76.7,4,3500000,3500000,Menunggak,"Hendra Gunawan, M.Kom"
+25010066,Zahra Rahmawati,P,S1 Informatika,2025,3,Non-Aktif,3.37,40,91.0,6,5800000,5800000,Menunggak,"Hendra Gunawan, M.Kom"
+25010067,Naufal Ramadhan,L,S1 Informatika,2025,3,Aktif,2.82,33,76.3,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010068,Citra Syahputra,P,S1 Informatika,2025,3,Aktif,3.25,35,82.5,6,5800000,8700000,Menunggak,"Rizal Fadhillah, M.T"
+25010069,Zahra Syahputra,P,S1 Informatika,2025,3,Aktif,2.66,35,69.0,7,7000000,3500000,Cicilan,Dr. Arief Rahman
+25010070,Fajar Hidayat,L,S1 Informatika,2025,3,Aktif,3.09,43,70.5,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010071,Dimas Maulana,L,S1 Informatika,2025,3,Aktif,4.0,37,100.0,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+25010072,Ilham Maulana,L,S1 Informatika,2025,3,Aktif,4.0,41,85.7,7,7000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010073,Citra Wijaya,P,S1 Informatika,2025,3,Aktif,3.44,41,91.9,6,5800000,0,Lunas,Dr. Arief Rahman
+25010074,Ilham Halim,L,S1 Informatika,2025,3,Aktif,2.92,41,76.5,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+25010075,Lutfi Nugroho,L,S1 Informatika,2025,3,Aktif,2.51,36,74.9,3,2400000,0,Lunas,Dr. Arief Rahman
+25010076,Hana Rahmawati,P,S1 Informatika,2025,3,Aktif,3.67,42,85.5,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+25010077,Rani Setiawan,P,S1 Informatika,2025,3,Aktif,3.23,42,78.0,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+25010078,Ayu Wijaya,P,S1 Informatika,2025,3,Aktif,3.11,29,71.7,2,1000000,0,Lunas,"Nur Aisyah, M.Sc"
+25010079,Dewi Kusuma,P,S1 Informatika,2025,3,Aktif,2.69,40,73.5,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+25010080,Dimas Maulana,L,S1 Informatika,2025,3,Aktif,3.27,38,94.6,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25010081,Andre Halim,L,S1 Informatika,2025,3,Aktif,3.38,37,78.5,8,8500000,4250000,Cicilan,"Rizal Fadhillah, M.T"
+25010082,Zahra Setiawan,P,S1 Informatika,2025,3,Aktif,2.8,36,80.5,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+25010083,Umar Santoso,L,S1 Informatika,2025,3,Aktif,3.53,33,90.5,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25010084,Laras Anggraini,P,S1 Informatika,2025,3,Aktif,2.53,33,66.3,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010085,Rizky Nugroho,L,S1 Informatika,2025,3,Aktif,4.0,47,92.9,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25010086,Dandi Lestari,L,S1 Informatika,2025,3,Aktif,3.43,40,85.8,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+25010087,Dewi Halim,P,S1 Informatika,2025,3,Aktif,3.28,36,78.9,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+25010088,Galih Pratama,L,S1 Informatika,2025,3,Non-Aktif,3.4,32,80.9,3,2400000,1200000,Cicilan,"Nur Aisyah, M.Sc"
+25010089,Ilham Maulana,L,S1 Informatika,2025,3,Aktif,3.4,33,77.0,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+25030001,Nadia Wibowo,P,S1 Sains Data,2025,3,Aktif,2.94,39,68.9,6,5800000,2900000,Cicilan,"Nur Aisyah, M.Sc"
+25030002,Melati Maulana,P,S1 Sains Data,2025,3,Aktif,2.95,38,77.0,4,3500000,3500000,Menunggak,"Nur Aisyah, M.Sc"
+25030003,Hana Lestari,P,S1 Sains Data,2025,3,Cuti,3.04,36,76.0,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+25030004,Gilang Ramadhan,L,S1 Sains Data,2025,3,Aktif,3.72,31,83.7,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+25030005,Bagas Maulana,L,S1 Sains Data,2025,3,Aktif,3.44,45,93.2,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25030006,Andini Wijaya,P,S1 Sains Data,2025,3,Aktif,3.05,44,79.4,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+25030007,Dandi Rahmawati,L,S1 Sains Data,2025,3,Aktif,3.44,37,83.6,5,4600000,0,Lunas,Dr. Arief Rahman
+25030008,Dandi Maulana,L,S1 Sains Data,2025,3,Aktif,3.93,43,100.0,2,1000000,0,Lunas,Dr. Arief Rahman
+25030009,Ilham Ramadhan,L,S1 Sains Data,2025,3,Non-Aktif,3.25,43,78.2,5,4600000,2300000,Cicilan,Dr. Arief Rahman
+25030010,Kartika Permata,P,S1 Sains Data,2025,3,Aktif,3.0,35,65.8,5,4600000,2300000,Cicilan,"Yuni Kartika, M.T"
+25030011,Farah Nugroho,P,S1 Sains Data,2025,3,Aktif,3.25,46,86.3,6,5800000,0,Lunas,Dr. Sri Wahyuni
+25030012,Sinta Halim,P,S1 Sains Data,2025,3,Aktif,4.0,38,93.3,4,3500000,0,Lunas,Dr. Arief Rahman
+25030013,Dimas Kusuma,L,S1 Sains Data,2025,3,Aktif,3.41,31,84.5,5,4600000,4600000,Menunggak,"Hendra Gunawan, M.Kom"
+25030014,Oktavia Hakim,P,S1 Sains Data,2025,3,Aktif,3.32,39,90.7,2,1000000,0,Lunas,Dr. Sri Wahyuni
+25030015,Melati Ramadhan,P,S1 Sains Data,2025,3,Aktif,3.66,28,84.6,3,2400000,0,Lunas,Dr. Arief Rahman
+25030016,Gita Wijaya,P,S1 Sains Data,2025,3,Aktif,3.17,45,83.5,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+25030017,Oktavia Setiawan,P,S1 Sains Data,2025,3,Aktif,2.99,40,82.8,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25030018,Dandi Hakim,L,S1 Sains Data,2025,3,Aktif,2.52,36,79.5,7,7000000,0,Lunas,Dr. Sri Wahyuni
+25030019,Farah Kusuma,P,S1 Sains Data,2025,3,Aktif,3.33,44,86.8,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+25030020,Sinta Rahmawati,P,S1 Sains Data,2025,3,Aktif,4.0,38,100.0,1,500000,0,Lunas,Dr. Arief Rahman
+25030021,Sinta Wibowo,P,S1 Sains Data,2025,3,Aktif,3.12,48,78.8,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+25030022,Citra Saputra,P,S1 Sains Data,2025,3,Aktif,3.52,38,84.4,3,2400000,1200000,Cicilan,"Nur Aisyah, M.Sc"
+25030023,Dimas Firmansyah,L,S1 Sains Data,2025,3,Aktif,3.74,38,91.8,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+25030024,Hana Pratama,P,S1 Sains Data,2025,3,Aktif,3.95,44,92.0,6,5800000,2900000,Cicilan,Dr. Sri Wahyuni
+25030025,Ilham Santoso,L,S1 Sains Data,2025,3,Aktif,2.44,31,65.8,5,4600000,0,Lunas,Dr. Sri Wahyuni
+25030026,Dimas Syahputra,L,S1 Sains Data,2025,3,Aktif,2.93,29,83.4,3,2400000,0,Lunas,"Rizal Fadhillah, M.T"
+25030027,Hana Saputra,P,S1 Sains Data,2025,3,Aktif,2.98,38,70.9,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+25030028,Joko Hakim,L,S1 Sains Data,2025,3,Aktif,3.05,36,77.2,2,1000000,1000000,Menunggak,Dr. Arief Rahman
+25030029,Galih Maulana,L,S1 Sains Data,2025,3,Aktif,3.4,40,82.9,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25030030,Fajar Firmansyah,L,S1 Sains Data,2025,3,Aktif,3.45,26,95.2,4,3500000,0,Lunas,Dr. Arief Rahman
+25030031,Maya Syahputra,P,S1 Sains Data,2025,3,Aktif,3.03,35,86.9,7,7000000,7000000,Menunggak,Dr. Sri Wahyuni
+25030032,Indah Syahputra,P,S1 Sains Data,2025,3,Aktif,3.2,35,85.9,3,2400000,0,Lunas,Dr. Sri Wahyuni
+25030033,Salsabila Syahputra,P,S1 Sains Data,2025,3,Aktif,3.18,43,73.5,8,8500000,0,Lunas,"Dwi Handayani, M.Kom"
+25030034,Sinta Utami,P,S1 Sains Data,2025,3,Aktif,3.32,40,87.6,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+25030035,Nadia Firmansyah,P,S1 Sains Data,2025,3,Aktif,3.11,34,82.5,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+25030036,Dewi Santoso,P,S1 Sains Data,2025,3,Aktif,3.52,42,85.7,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25030037,Dandi Syahputra,L,S1 Sains Data,2025,3,Aktif,2.54,38,68.1,2,1000000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25030038,Yusuf Kusuma,L,S1 Sains Data,2025,3,Aktif,3.3,32,89.4,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25030039,Yusuf Nugroho,L,S1 Sains Data,2025,3,Aktif,3.5,43,86.6,5,4600000,0,Lunas,"Rizal Fadhillah, M.T"
+25030040,Rizky Nugroho,L,S1 Sains Data,2025,3,Aktif,3.06,40,86.0,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25030041,Cahaya Anggraini,P,S1 Sains Data,2025,3,Aktif,3.5,42,84.7,4,3500000,5250000,Menunggak,"Nur Aisyah, M.Sc"
+25030042,Joko Santoso,L,S1 Sains Data,2025,3,Cuti,3.29,33,70.3,6,5800000,2900000,Cicilan,"Rizal Fadhillah, M.T"
+25030043,Melati Santoso,P,S1 Sains Data,2025,3,Aktif,3.45,43,79.7,7,7000000,0,Lunas,"Hendra Gunawan, M.Kom"
+25030044,Aditya Wibowo,L,S1 Sains Data,2025,3,Aktif,3.14,26,86.6,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25030045,Putri Santoso,P,S1 Sains Data,2025,3,Aktif,4.0,38,96.3,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+25030046,Aditya Halim,L,S1 Sains Data,2025,3,Aktif,3.5,33,87.0,6,5800000,5800000,Menunggak,Dr. Sri Wahyuni
+25020001,Ayu Anggraini,P,S1 Sistem Informasi,2025,3,Aktif,3.08,38,71.8,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25020002,Andre Nugroho,L,S1 Sistem Informasi,2025,3,Aktif,3.4,35,98.3,2,1000000,0,Lunas,"Dwi Handayani, M.Kom"
+25020003,Ilham Anggraini,L,S1 Sistem Informasi,2025,3,Aktif,2.56,40,78.2,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+25020004,Bayu Nugroho,L,S1 Sistem Informasi,2025,3,Aktif,3.04,37,76.9,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+25020005,Putri Hidayat,P,S1 Sistem Informasi,2025,3,Aktif,3.08,34,76.9,3,2400000,0,Lunas,"Hendra Gunawan, M.Kom"
+25020006,Rizky Firmansyah,L,S1 Sistem Informasi,2025,3,Aktif,3.77,34,84.6,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+25020007,Kartika Rahmawati,P,S1 Sistem Informasi,2025,3,Aktif,2.76,37,75.0,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+25020008,Gita Setiawan,P,S1 Sistem Informasi,2025,3,Aktif,3.34,39,76.4,6,5800000,0,Lunas,Dr. Sri Wahyuni
+25020009,Fajar Lestari,L,S1 Sistem Informasi,2025,3,Aktif,4.0,38,92.6,4,3500000,5250000,Menunggak,"Hendra Gunawan, M.Kom"
+25020010,Rani Anggraini,P,S1 Sistem Informasi,2025,3,Aktif,2.8,34,77.5,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+25020011,Ilham Syahputra,L,S1 Sistem Informasi,2025,3,Aktif,3.21,34,79.3,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+25020012,Sinta Kusuma,P,S1 Sistem Informasi,2025,3,Non-Aktif,3.29,31,89.1,7,7000000,3500000,Cicilan,"Hendra Gunawan, M.Kom"
+25020013,Satrio Ramadhan,L,S1 Sistem Informasi,2025,3,Aktif,3.39,45,90.7,4,3500000,0,Lunas,"Yuni Kartika, M.T"
+25020014,Naufal Utami,L,S1 Sistem Informasi,2025,3,Aktif,3.44,48,84.3,6,5800000,0,Lunas,"Rizal Fadhillah, M.T"
+25020015,Ayu Lestari,P,S1 Sistem Informasi,2025,3,Aktif,3.22,46,86.0,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020016,Vina Saputra,P,S1 Sistem Informasi,2025,3,Aktif,3.86,39,86.7,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25020017,Indah Lestari,P,S1 Sistem Informasi,2025,3,Aktif,3.09,33,72.5,6,5800000,0,Lunas,Dr. Sri Wahyuni
+25020018,Gilang Hidayat,L,S1 Sistem Informasi,2025,3,Aktif,2.94,40,74.8,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020019,Dandi Lestari,L,S1 Sistem Informasi,2025,3,Aktif,3.91,34,79.2,3,2400000,0,Lunas,"Dwi Handayani, M.Kom"
+25020020,Bimo Syahputra,L,S1 Sistem Informasi,2025,3,Aktif,3.78,41,89.6,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+25020021,Rani Hakim,P,S1 Sistem Informasi,2025,3,Aktif,3.0,34,83.9,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+25020022,Cahaya Permata,P,S1 Sistem Informasi,2025,3,Aktif,2.68,40,71.5,3,2400000,1200000,Cicilan,"Nur Aisyah, M.Sc"
+25020023,Rizky Ramadhan,L,S1 Sistem Informasi,2025,3,Aktif,3.31,40,67.2,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+25020024,Kartika Wibowo,P,S1 Sistem Informasi,2025,3,Aktif,3.59,48,91.9,2,1000000,0,Lunas,"Yuni Kartika, M.T"
+25020025,Anisa Halim,P,S1 Sistem Informasi,2025,3,Aktif,4.0,53,100.0,6,5800000,0,Lunas,"Dwi Handayani, M.Kom"
+25020026,Ayu Hidayat,P,S1 Sistem Informasi,2025,3,Cuti,3.25,47,88.4,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+25020027,Dandi Hidayat,L,S1 Sistem Informasi,2025,3,Cuti,2.65,39,76.4,6,5800000,5800000,Menunggak,"Rizal Fadhillah, M.T"
+25020028,Cahaya Wijaya,P,S1 Sistem Informasi,2025,3,Aktif,2.73,36,64.8,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+25020029,Reza Syahputra,L,S1 Sistem Informasi,2025,3,Aktif,2.83,48,78.8,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+25020030,Fajar Maulana,L,S1 Sistem Informasi,2025,3,Aktif,3.75,38,94.5,4,3500000,0,Lunas,"Rizal Fadhillah, M.T"
+25020031,Putri Ramadhan,P,S1 Sistem Informasi,2025,3,Aktif,3.71,45,99.6,5,4600000,0,Lunas,Dr. Sri Wahyuni
+25020032,Cahaya Santoso,P,S1 Sistem Informasi,2025,3,Aktif,3.01,32,80.1,5,4600000,0,Lunas,"Nur Aisyah, M.Sc"
+25020033,Laras Lestari,P,S1 Sistem Informasi,2025,3,Aktif,3.51,41,87.5,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020034,Oktavia Saputra,P,S1 Sistem Informasi,2025,3,Aktif,3.07,39,80.8,8,8500000,4250000,Cicilan,"Nur Aisyah, M.Sc"
+25020035,Laras Wijaya,P,S1 Sistem Informasi,2025,3,Aktif,2.62,34,93.6,5,4600000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020036,Yusuf Rahmawati,L,S1 Sistem Informasi,2025,3,Aktif,3.28,44,84.1,3,2400000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020037,Wahyu Nugroho,L,S1 Sistem Informasi,2025,3,Aktif,3.31,33,83.6,6,5800000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020038,Andini Wijaya,P,S1 Sistem Informasi,2025,3,Aktif,2.35,26,72.3,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+25020039,Farah Nugroho,P,S1 Sistem Informasi,2025,3,Aktif,2.89,34,85.8,7,7000000,0,Lunas,Dr. Sri Wahyuni
+25020040,Galih Saputra,L,S1 Sistem Informasi,2025,3,Aktif,2.92,39,76.9,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+25020041,Tiara Utami,P,S1 Sistem Informasi,2025,3,Aktif,2.78,34,77.1,3,2400000,0,Lunas,"Yuni Kartika, M.T"
+25020042,Bayu Wijaya,L,S1 Sistem Informasi,2025,3,Aktif,2.88,31,79.9,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25020043,Dimas Hidayat,L,S1 Sistem Informasi,2025,3,Aktif,4.0,43,98.4,6,5800000,2900000,Cicilan,Dr. Arief Rahman
+25020044,Fikri Permata,L,S1 Sistem Informasi,2025,3,Aktif,3.39,37,90.4,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25020045,Ilham Saputra,L,S1 Sistem Informasi,2025,3,Aktif,3.76,40,92.0,4,3500000,1750000,Cicilan,"Nur Aisyah, M.Sc"
+25020046,Lutfi Hakim,L,S1 Sistem Informasi,2025,3,Aktif,3.21,33,94.0,4,3500000,0,Lunas,Dr. Sri Wahyuni
+25020047,Taufik Rahmawati,L,S1 Sistem Informasi,2025,3,Aktif,2.76,31,75.1,5,4600000,4600000,Menunggak,"Yuni Kartika, M.T"
+25020048,Satrio Wijaya,L,S1 Sistem Informasi,2025,3,Aktif,3.32,41,89.1,6,5800000,0,Lunas,"Nur Aisyah, M.Sc"
+25020049,Nadia Maulana,P,S1 Sistem Informasi,2025,3,Aktif,3.68,32,79.5,5,4600000,0,Lunas,"Yuni Kartika, M.T"
+25020050,Oktavia Rahmawati,P,S1 Sistem Informasi,2025,3,Aktif,3.32,43,86.4,8,8500000,0,Lunas,"Rizal Fadhillah, M.T"
+25020051,Putri Permata,P,S1 Sistem Informasi,2025,3,Aktif,2.41,45,79.2,3,2400000,0,Lunas,"Nur Aisyah, M.Sc"
+25020052,Taufik Lestari,L,S1 Sistem Informasi,2025,3,Aktif,3.35,46,89.3,7,7000000,0,Lunas,Dr. Arief Rahman
+25020053,Gilang Santoso,L,S1 Sistem Informasi,2025,3,Non-Aktif,3.64,36,85.8,4,3500000,3500000,Menunggak,"Rizal Fadhillah, M.T"
+25020054,Kartika Setiawan,P,S1 Sistem Informasi,2025,3,Aktif,2.98,37,70.4,6,5800000,0,Lunas,"Yuni Kartika, M.T"
+25020055,Salsabila Pratama,P,S1 Sistem Informasi,2025,3,Aktif,3.81,40,86.3,4,3500000,0,Lunas,"Ir. Bambang Setyo, M.Kom"
+25020056,Oktavia Utami,P,S1 Sistem Informasi,2025,3,Aktif,3.57,37,89.0,7,7000000,0,Lunas,"Rizal Fadhillah, M.T"
+25020057,Anisa Saputra,P,S1 Sistem Informasi,2025,3,Aktif,3.39,26,73.8,4,3500000,0,Lunas,"Nur Aisyah, M.Sc"
+25020058,Oktavia Lestari,P,S1 Sistem Informasi,2025,3,Aktif,3.29,39,83.2,6,5800000,0,Lunas,Dr. Arief Rahman
+25020059,Satrio Rahmawati,L,S1 Sistem Informasi,2025,3,Aktif,3.22,45,77.3,7,7000000,0,Lunas,"Dwi Handayani, M.Kom"
+25020060,Bimo Halim,L,S1 Sistem Informasi,2025,3,Aktif,3.42,49,90.9,4,3500000,5250000,Menunggak,"Hendra Gunawan, M.Kom"
+25020061,Bagas Permata,L,S1 Sistem Informasi,2025,3,Aktif,2.91,32,79.6,6,5800000,0,Lunas,Dr. Arief Rahman
+25020062,Yusuf Pratama,L,S1 Sistem Informasi,2025,3,Aktif,3.55,39,82.3,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+25020063,Anisa Anggraini,P,S1 Sistem Informasi,2025,3,Aktif,2.4,33,72.8,6,5800000,0,Lunas,"Hendra Gunawan, M.Kom"
+25020064,Ayu Pratama,P,S1 Sistem Informasi,2025,3,Aktif,2.65,45,69.2,4,3500000,0,Lunas,"Dwi Handayani, M.Kom"
+25020065,Gilang Maulana,L,S1 Sistem Informasi,2025,3,Aktif,3.29,40,81.4,5,4600000,0,Lunas,"Dwi Handayani, M.Kom"
+25020066,Indah Lestari,P,S1 Sistem Informasi,2025,3,Aktif,3.13,39,83.5,4,3500000,0,Lunas,Dr. Arief Rahman
+25020067,Fikri Santoso,L,S1 Sistem Informasi,2025,3,Aktif,3.63,34,95.7,1,500000,0,Lunas,"Rizal Fadhillah, M.T"
+25020068,Kartika Ramadhan,P,S1 Sistem Informasi,2025,3,Aktif,4.0,35,96.1,1,500000,0,Lunas,Dr. Arief Rahman
+25020069,Satrio Firmansyah,L,S1 Sistem Informasi,2025,3,Cuti,3.01,38,78.7,2,1000000,0,Lunas,"Rizal Fadhillah, M.T"
+25020070,Anisa Nugroho,P,S1 Sistem Informasi,2025,3,Aktif,3.18,52,79.9,4,3500000,0,Lunas,Dr. Sri Wahyuni
