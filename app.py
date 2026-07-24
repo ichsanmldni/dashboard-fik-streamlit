@@ -840,28 +840,28 @@ with tab4:
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
     per_prodi = (
-        df.groupby(["program_studi", "angkatan"])["kehadiran_persen"]
+        df.groupby(["angkatan", "program_studi"])["kehadiran_persen"]
         .mean()
         .reset_index()
     )
-    per_prodi["angkatan"] = per_prodi["angkatan"].astype(str)
-    fig = px.bar(
+    fig = px.line(
         per_prodi,
-        x="program_studi",
+        x="angkatan",
         y="kehadiran_persen",
-        color="angkatan",
-        barmode="group",
+        color="program_studi",
+        markers=True,
         color_discrete_sequence=PALET,
-        text_auto=".1f%",
     )
-    fig.update_traces(marker_line_width=0, textposition="outside")
-    fig.update_yaxes(range=[50, 100])
+    fig.update_traces(line=dict(width=2.5), marker=dict(size=8))
+    fig.update_xaxes(tickmode="array", tickvals=sorted(df["angkatan"].unique()))
+    fig.update_yaxes(range=[60, 100])
     st.plotly_chart(
         rapikan(
             fig,
             tinggi=380,
             judul="Rata-rata kehadiran per prodi & angkatan",
-            ylabel="Rata kehadiran (%)",
+            xlabel="Tahun angkatan",
+            ylabel="Rata-rata kehadiran (%)",
         ),
         use_container_width=True,
     )
