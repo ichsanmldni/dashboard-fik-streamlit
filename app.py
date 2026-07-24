@@ -40,8 +40,8 @@ WARNA_BAYAR = {
     "Menunggak": MERAH,
 }
 
-BATAS_IPK_RAWAN = 2.50
-BATAS_HADIR_RAWAN = 82.0
+BATAS_IPK_RAWAN = 2.00
+BATAS_HADIR_RAWAN = 81.25
 
 # ---------------------------------------------------------------- Custom CSS (Minimal & Professional)
 st.markdown(
@@ -397,7 +397,7 @@ st.sidebar.markdown(
         Menampilkan <b>{len(df):,}</b> dari <b>{len(data):,}</b> mahasiswa.<br>
         <hr style="margin: 8px 0; border-color: #F1F5F9;">
         <span style="font-size: 0.76rem; color: #64748B;">
-            Kriteria <i>perlu perhatian</i>: IPK &lt; 2,50 <b>atau</b> kehadiran &lt; 82% <b>atau</b> memiliki tunggakan UKT.
+            Kriteria <i>perlu perhatian</i>: IPK &lt; 2,00 <b>atau</b> kehadiran &lt; 81,25% <b>atau</b> memiliki tunggakan UKT.
         </span>
     </div>
     """.replace(",", "."),
@@ -562,7 +562,7 @@ with tab2:
             line_dash="dash",
             line_color=MERAH,
             line_width=2,
-            annotation_text="Batas rawan 2,50",
+            annotation_text="Batas rawan 2,00",
             annotation_position="top left",
             annotation_font=dict(color=MERAH, size=11),
         )
@@ -776,7 +776,7 @@ with tab3:
 with tab4:
     st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
     st.caption(
-        "ℹ️ **Kebijakan Presensi FIK**: Batas minimal kehadiran mahasiswa adalah **82%**, "
+        "ℹ️ **Kebijakan Presensi FIK**: Batas minimal kehadiran mahasiswa adalah **81,25%**, "
         "karena mahasiswa hanya diperbolehkan maksimal tidak masuk **3 kali** dalam 1 semester (asumsi 16 pertemuan)."
     )
     st.markdown("<div style='height: 4px;'></div>", unsafe_allow_html=True)
@@ -795,7 +795,7 @@ with tab4:
             line_dash="dash",
             line_color=MERAH,
             line_width=2,
-            annotation_text="Batas 82% (maks. 3x alpa)",
+            annotation_text="Batas 81,25% (maks. 3x alpa)",
             annotation_position="top left",
             annotation_font=dict(color=MERAH, size=11),
         )
@@ -845,8 +845,8 @@ with tab4:
         .reset_index()
     )
     if not per_prodi.empty:
-        v_min = max(0, per_prodi["kehadiran_persen"].min() - 7)
-        v_max = min(100, per_prodi["kehadiran_persen"].max() + 7)
+        v_min = max(0, per_prodi["kehadiran_persen"].min() - 2)
+        v_max = min(100, per_prodi["kehadiran_persen"].max() + 2)
     else:
         v_min, v_max = 60, 100
 
@@ -873,12 +873,12 @@ with tab4:
     )
 
     st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
-    st.markdown(f"### Mahasiswa dengan kehadiran di bawah {BATAS_HADIR_RAWAN:.0f}%")
+    st.markdown(f"### Mahasiswa dengan kehadiran di bawah {BATAS_HADIR_RAWAN:.2f}%")
     kurang = df[df["kehadiran_persen"] < BATAS_HADIR_RAWAN].sort_values(
         "kehadiran_persen"
     )
     st.caption(
-        f"Daftar {len(kurang)} mahasiswa berisiko tidak memenuhi syarat ujian (kehadiran < 82% / tidak masuk > 3 kali)."
+        f"Daftar {len(kurang)} mahasiswa berisiko tidak memenuhi syarat ujian (kehadiran < 81,25% / tidak masuk > 3 kali)."
     )
     st.dataframe(
         kurang[
