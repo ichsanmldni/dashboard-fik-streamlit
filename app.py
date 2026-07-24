@@ -490,6 +490,7 @@ with tab1:
         per_prodi = (
             df.groupby(["program_studi", "angkatan"]).size().reset_index(name="jumlah")
         )
+        per_prodi["angkatan"] = per_prodi["angkatan"].astype(str)
         fig = px.bar(
             per_prodi,
             x="program_studi",
@@ -838,6 +839,7 @@ with tab4:
         .mean()
         .reset_index()
     )
+    per_prodi["angkatan"] = per_prodi["angkatan"].astype(str)
     fig = px.bar(
         per_prodi,
         x="program_studi",
@@ -845,9 +847,10 @@ with tab4:
         color="angkatan",
         barmode="group",
         color_discrete_sequence=PALET,
+        text_auto=".1f%",
     )
-    fig.update_traces(marker_line_width=0)
-    fig.update_yaxes(range=[0, 100])
+    fig.update_traces(marker_line_width=0, textposition="outside")
+    fig.update_yaxes(range=[50, 100])
     st.plotly_chart(
         rapikan(
             fig,
